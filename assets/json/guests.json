@@ -34,5 +34,23 @@
 "url": "https://www.facebook.com/groups/free.code.camp.seoul/",
 "photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13891815_10154525902857174_7275627965581803627_n.jpg?oh=03f363bc6188a07ee23e309477a5fd12&oe=595145BF",
 "coordinates": "37.5665° N, 126.9780° E"
+},
+{
+"city": "Washington DC, USA",
+"url": "https://www.facebook.com/groups/free.code.camp.washington.dc/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/12371029_10101547245993733_405182426307922562_o.jpg?oh=108d9fae6f371dd6fcb56e6be25e6a6a&oe=596393F1",
+"coordinates": "38.9072° N, 77.0369° W"
+},
+{
+"city": "San Francisco, CA, USA",
+"url": "https://www.facebook.com/groups/free.code.camp.san.francisco/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/14379799_10154543981983588_5619695716027645878_o.jpg?oh=7465f28a4752a15d934e5cfee8bcef66&oe=5950D0DD",
+"coordinates": "37.7749° N, 122.4194° W"
+},
+{
+"city": "New York, NY, USA",
+"url": "https://www.facebook.com/groups/free.code.camp.new.york.city/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13775539_10207371570352541_4107239374987385144_n.jpg?oh=5e7cc384dbc78b97ac0730519f8c46ae&oe=598FAF45",
+"coordinates": "40.7128° N, 74.0059° W"
 }
 ]

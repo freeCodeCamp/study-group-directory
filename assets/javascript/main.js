@@ -18,6 +18,7 @@ $('.example-grid').children().hover(
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(UserLocation);
+
     } else {
         // loc = "Geolocation is not supported by this browser.";
         NearestCity(38.8951, -77.0367);
@@ -27,7 +28,6 @@ getLocation();
 
 // Callback function for asynchronous call to HTML5 geolocation
 function UserLocation(position) {
-
   NearestCity(position.coords.latitude, position.coords.longitude);
 }
 
@@ -88,8 +88,6 @@ function NearestCity(latitude, longitude) {
       mindif = dif;
     }
   }
-
-  console.log(cities[closest][0]);
 
   $.getJSON('assets/json/guests.json').then(function(data) {
       data.forEach(function(guest) {
@@ -187,50 +185,50 @@ resizeIframe();
 
 
 //sticky navigation
-+(function() {
-
-    // Selectors
-    var sidebar = document.querySelector('.sidebar');
-    var content = document.querySelector('.content');
-
-    // Constants
-    var SIDEBAR_DISTANCE_TOP = sidebar.getBoundingClientRect().top + document.body.scrollTop - 50;
-    var WIDTH_BRAKE_POINT = 767;
-
-    // Global varialbes
-    var distanceTop = document.body.scrollTop;
-    var browserWidth = window.innerWidth || document.body.clientWidth;
-
-    window.addEventListener('resize', function(){
-        browserWidth = window.innerWidth || document.body.clientWidth;
-        doStick();
-    });
-
-    window.addEventListener("scroll", function() {
-        distanceTop = document.body.scrollTop;
-        doStick();
-    });
-
-    function doStick() {
-        if (isStickable()) {
-            SIDEBAR_DISTANCE_TOP < distanceTop ? stick() : unStick();
-        } else {
-            unStick();
-        }
-    }
-
-    function stick() {
-        sidebar.classList.add('stick');
-        content.classList.add('offset-by-four');
-    }
-
-    function unStick() {
-        sidebar.classList.remove('stick')
-        content.classList.remove('offset-by-four')
-    }
-
-    function isStickable() {
-        return browserWidth > WIDTH_BRAKE_POINT;
-    }
-
-})()
+// +(function() {
+//
+//     // Selectors
+//     var sidebar = document.querySelector('.sidebar');
+//     var content = document.querySelector('.content');
+//
+//     // Constants
+//     var SIDEBAR_DISTANCE_TOP = sidebar.getBoundingClientRect().top + document.body.scrollTop - 50;
+//     var WIDTH_BRAKE_POINT = 767;
+//
+//     // Global varialbes
+//     var distanceTop = document.body.scrollTop;
+//     var browserWidth = window.innerWidth || document.body.clientWidth;
+//
+//     window.addEventListener('resize', function(){
+//         browserWidth = window.innerWidth || document.body.clientWidth;
+//         doStick();
+//     });
+//
+//     window.addEventListener("scroll", function() {
+//         distanceTop = document.body.scrollTop;
+//         doStick();
+//     });
+//
+//     function doStick() {
+//         if (isStickable()) {
+//             SIDEBAR_DISTANCE_TOP < distanceTop ? stick() : unStick();
+//         } else {
+//             unStick();
+//         }
+//     }
+//
+//     function stick() {
+//         sidebar.classList.add('stick');
+//         content.classList.add('offset-by-four');
+//     }
+//
+//     function unStick() {
+//         sidebar.classList.remove('stick')
+//         content.classList.remove('offset-by-four')
+//     }
+//
+//     function isStickable() {
+//         return browserWidth > WIDTH_BRAKE_POINT;
+//     }
+//
+// })()
