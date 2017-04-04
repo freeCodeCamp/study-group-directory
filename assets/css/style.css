@@ -1,0 +1,275 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+ }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+
+a, a:visited { color: #939393; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+p{
+  color: #222222;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p img { margin: 0; }
+
+.palette-pad {
+  min-height: 170px;
+}
+
+.small{
+	font-size: 16px;
+}
+
+header{
+	color: #FFFFFF;
+	height: 500px;
+	width: 100%;
+	position: relative;
+  background: linear-gradient(#006400, #006400);
+  background-image: linear-gradient(rgb(0, 100, 0), rgb(3, 95, 29));
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+}
+
+.center{
+	text-align: center;
+}
+
+header{
+	margin-bottom: 75px;
+}
+
+nav {
+	position: fixed-scroll;
+	width: 160px;
+}
+
+nav ul {
+	float: left;
+	margin-bottom: 75px;
+}
+
+nav ul li {
+	display: block;
+	margin-bottom: 10px;
+}
+
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active {
+	font-size: 20px;
+	color: #555;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	color: #222;
+}
+
+.ginormous-text {
+	font-size: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+	.ginormous-text {
+		font-size: 55px;
+	}
+}
+
+.top-hero{
+	text-align: center;
+	padding-top: 250px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+	.top-hero {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+  .top-hero date {
+    display: block;
+  }
+}
+
+.pad{
+	padding-bottom: 75px;
+}
+
+.center{
+	text-align: center;
+}
+
+.logo-border{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 75px;
+}
+
+.logo-border-glyph{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 60px;
+}
+
+.logo-border-small{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 40px;
+}
+
+.misuse-border{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.color-palette{
+	height: 160px;
+	width: 160px;
+	border-radius: 100px;
+}
+
+/*Free Code Camp Colors*/
+
+.dark-green{
+	background-color: #006400;
+}
+
+.green{
+	background-color: #007E00;
+}
+
+.yellow{
+	background-color: #FFEE18;
+}
+
+.orange{
+	background-color: #FF9C2A;
+}
+
+.light-orange{
+	background-color: #FFAD25;
+}
+
+.blue{
+	background-color: #3949AB;
+}
+
+.light-blue{
+	background-color: #2DB9FF;
+}
+
+.red{
+	background-color: #FF4025;
+}
+
+.light-red{
+	background-color: #FF6D58;
+}
+
+.pink{
+	background-color: #F06292;
+}
+
+.purple{
+	background-color: #BA68C8;
+}
+
+.brown{
+	background-color: #A4755F;
+}
+
+.grey{
+	background-color: #E0E0E0;
+}
+
+.dark-grey{
+	background-color: #939393;
+}
+
+.black{
+	background-color: #2A2A2A;
+}
+
+.white{
+	background-color: #FFFFFF;
+    border: 1px solid #D7E0E0;
+}
+
+// Youtube responsive div code
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.twitter-blue {
+  color: #0084b4
+}
+.profile-image {
+	border-radius: 0%;
+  height: 176px;
+  width: 220px;
+}
+
+.big-break {
+  margin-top: 50px;
+}
+
+.stick {
+	position: fixed;
+	top: 50px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#camps, #closeCamps {
+  list-style: none;
+}

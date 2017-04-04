@@ -1,0 +1,38 @@
+[
+  {
+  "city": "Johannesburg, South Africa",
+  "url": "https://www.facebook.com/groups/free.code.camp.johannesburg/",
+  "photo": "https://scontent-syd2-1.xx.fbcdn.net/v/t31.0-8/17192044_10154286752670785_1542908279625685518_o.jpg?oh=7baa813a64691e9d7c806c2c00354539&oe=5994B026",
+  "coordinates": "26.2041° S, 28.0473° E"
+},
+{
+"city": "San Antonio, TX, USA",
+"url": "https://www.facebook.com/groups/free.code.camp.san.antonio/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13728938_10154429966035955_379352092008266264_n.jpg?oh=696ab745246d163259410fdbb3c5fb00&oe=5997BE56",
+"coordinates": "29.4241° N, 98.4936° W"
+},
+{
+"city": "Toronto, ON, Canada",
+"url": "https://www.facebook.com/groups/free.code.camp.to/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/16601720_362547104129697_1635682184847027019_o.jpg?oh=0124640b3d5a44ea4ed511559df04259&oe=594E77BB",
+"coordinates": "43.6532° N, 79.3832° W"
+},
+{
+"city": "Beijing, China",
+"url": "https://www.facebook.com/groups/free.code.camp.beijing/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/14855926_325229044520425_1777870398437072843_o.jpg?oh=df640f580ba5a865729aa58d6e195785&oe=5998365B",
+"coordinates": "39.9042° N, 116.4074° E"
+},
+{
+"city": "Sydney, Australia",
+"url": "https://www.facebook.com/groups/free.code.camp.sydney.au/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/12885697_10153038957802185_3133982741650005511_o.jpg?oh=4138987e496ea17b69d51e0ba45f0df7&oe=595D6565",
+"coordinates": "33.8688° S, 151.2093° E"
+},
+{
+"city": "Seoul, Korea",
+"url": "https://www.facebook.com/groups/free.code.camp.seoul/",
+"photo": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13891815_10154525902857174_7275627965581803627_n.jpg?oh=03f363bc6188a07ee23e309477a5fd12&oe=595145BF",
+"coordinates": "37.5665° N, 126.9780° E"
+}
+]
