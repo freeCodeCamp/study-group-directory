@@ -48,22 +48,21 @@ function PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
   var d = Math.sqrt(x * x + y * y) * R;
   return d;
 }
-//
-// var lat = 20; // user's latitude
-// var lon = 40; // user's longitude
 
 var cities = [];
+var cityNames = [];
 
-$.getJSON('assets/json/guests.json').then(function(data) {
-    data.forEach(function(guest) {
-      const coordString = guest.coordinates;
+$.getJSON('assets/json/locations.json').then(function(data) {
+    data.forEach(function(loc) {
+      const coordString = loc.coordinates;
       let values = coordString.split(" ");
 
       var lat = ConvertDMSToDD(parseFloat(values[0]), values[1]);
       var lng = ConvertDMSToDD(parseFloat(values[2]), values[3]);
-      let coords = [guest.city, lat, lng];
+      let coords = [loc.city, loc.state, loc.country, lat, lng];
 
-      cities.push(coords)
+      cities.push(coords);
+      cityNames.push(loc.city);
 
   });
 });
@@ -82,19 +81,19 @@ function NearestCity(latitude, longitude) {
   var closest;
 
   for (index = 0; index < cities.length; ++index) {
-    var dif = PythagorasEquirectangular(latitude, longitude, cities[index][1], cities[index][2]);
+    var dif = PythagorasEquirectangular(latitude, longitude, cities[index][3], cities[index][4]);
     if (dif < mindif) {
       closest = index;
       mindif = dif;
     }
   }
 
-  $.getJSON('assets/json/guests.json').then(function(data) {
-      data.forEach(function(guest) {
-        const img = guest.photo,
-          city = guest.city,
-          url = guest.url
-          coords = guest.coordinates;
+  $.getJSON('assets/json/locations.json').then(function(data) {
+      data.forEach(function(loc) {
+        const img = loc.photo,
+          city = loc.city,
+          url = loc.url,
+          coords = loc.coordinates;
           if (city == cities[closest][0]){
           $("#closeCamps").append(
               `
@@ -116,12 +115,12 @@ function NearestCity(latitude, longitude) {
 
   });
 }
-
-$.getJSON('assets/json/guests.json').then(function(data) {
-    data.forEach(function(guest) {
-      const img = guest.photo,
-        city = guest.city,
-        url = guest.url;
+//full list of locations
+$.getJSON('assets/json/locations.json').then(function(data) {
+    data.forEach(function(loc) {
+      const img = loc.photo,
+        city = loc.city,
+        url = loc.url;
 
         $("#camps").append(
             `
@@ -129,7 +128,7 @@ $.getJSON('assets/json/guests.json').then(function(data) {
                 <div class="four columns alpha">
                     <img class="profile-image" src="${img}">
                     <div class="palette-pad">
-                        <h4>${city}</h4>
+                        <h4 class='city'>${city}</h4>
                         <a href="${url}" target="_blank">
                             <h5>Facebook Page</h5>
                         </a>
@@ -141,18 +140,38 @@ $.getJSON('assets/json/guests.json').then(function(data) {
     })
 });
 
-$('#search').keyup(function () {
-    var valThis = this.value.toLowerCase(),
-        lenght  = this.value.length;
 
-    $('#camps>li h4').each(function () {
-        var text  = $(this).text(),
-            textL = text.toLowerCase(),
-            htmlR = '<b>' + text.substr(0, lenght) + '</b>' + text.substr(lenght);
-        (textL.indexOf(valThis) == 0) ? $(this).html(htmlR).parent().parent().parent().show() : $(this).parent().parent().parent().hide();
+//search
+$('#search').keyup(function () {
+    var valThis = this.value.toLowerCase();
+    valThis = valThis.toLowerCase();
+    //     // length  = this.value.length;
+    valThis = valThis.replace(/\s+/g, '');
+
+
+    $('.city').each(function() {
+      var currentLiText = $(this).text(),
+          showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
+        $(this).parent().parent().toggle(showCurrentLi);
     });
 
+    // $('#camps>li h4').each(function () {
+    //     var text  = $(this).text(),
+    //         textL = text.toLowerCase(),
+    //         textL = textL.replace(/\s+/g, ''),
+    //         htmlR = '<b>' + text.substr(0, length) + '</b>' + text.substr(length);
+    //     (textL.indexOf(valThis) == 0) ? $(this).html(htmlR).parent().parent().parent().show() : $(this).parent().parent().parent().hide();
+    // });
+
 });
+
+
+$('#search').autocomplete({
+
+  source: cityNames
+
+  });
+
 
 
 function showPosition(position) {

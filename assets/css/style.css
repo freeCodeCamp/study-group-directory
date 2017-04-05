@@ -273,3 +273,6 @@ nav ul li a:focus {
 #camps, #closeCamps {
   list-style: none;
 }
+input {
+  margin: 10px;
+}
