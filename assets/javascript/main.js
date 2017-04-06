@@ -187,12 +187,12 @@ $('#search').keyup(function () {
         $(this).parent().parent().toggle(showCurrentLi);
         if(showCurrentLi==true){
           li.push(showCurrentLi);
-          if(li.length < 7){
-            $('#camps > li > div > img').css('display', 'block')
-          } else {
-            $('#camps > li > div > img').css('display', 'none')
-          }
-        }
+        //   if(li.length < 7){
+        //     $('#camps > li > div > img').css('display', 'block')
+        //   } else {
+        //     $('#camps > li > div > img').css('display', 'none')
+        //   }
+        // }
     });
 
     var size = $('#camps').find('li').length;
