@@ -114,7 +114,7 @@ function NearestCity(latitude, longitude) {
           $("#closeCamps").append(
               `
                 <li>
-                  <div class="four columns alpha>
+                  <div class="four columns alpha">
                       <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
                           <h4>${location}</h4>
@@ -128,8 +128,7 @@ function NearestCity(latitude, longitude) {
           );
         }
       });
-
-  });
+    });
 }
 
 //full list of locations
@@ -149,7 +148,6 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
           location = city + ", " + state + ", " + country;
         }
 
-/* <img class="lazy profile-image" data-original="${img}" alt="No Image"> */
 
         $("#camps").append(
             `
@@ -189,36 +187,24 @@ $('#search').keyup(function () {
         $(this).parent().parent().toggle(showCurrentLi);
         if(showCurrentLi==true){
           li.push(showCurrentLi);
-          if(li.length < 4){
+          if(li.length < 7){
             $('#camps > li > div > img').css('display', 'block')
           } else {
             $('#camps > li > div > img').css('display', 'none')
           }
-
         }
-
-
     });
 
-
-
-    // var html = $('#camps > li').html();
     var size = $('#camps').find('li').length;
     $("#res").html(li.length);
 
-    // `<img class="lazy profile-image" src="${img}" alt="No Image">`
-
-
 });
-
 
 // $('#search').autocomplete({
 //
 //   source: cityNames
 //
 //   });
-
-
 
 function showPosition(position) {
     loc = "Latitude: " + position.coords.latitude +
@@ -236,64 +222,3 @@ var resizeIframe = function() {
 };
 $(window).on('resize', resizeIframe);
 resizeIframe();
-
-// Twitter timeline
-!function(d,s,id){
-    var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-    if(!d.getElementById(id)){
-        js=d.createElement(s);js.id=id;
-        js.src=p+"://platform.twitter.com/widgets.js";
-        js.setAttribute('onload', "twttr.events.bind('rendered',function(e) {responsiveTwitterWidget()});");
-        fjs.parentNode.insertBefore(js,fjs);
-    }
-}(document,"script","twitter-wjs");
-
-
-//sticky navigation
-// +(function() {
-//
-//     // Selectors
-//     var sidebar = document.querySelector('.sidebar');
-//     var content = document.querySelector('.content');
-//
-//     // Constants
-//     var SIDEBAR_DISTANCE_TOP = sidebar.getBoundingClientRect().top + document.body.scrollTop - 50;
-//     var WIDTH_BRAKE_POINT = 767;
-//
-//     // Global varialbes
-//     var distanceTop = document.body.scrollTop;
-//     var browserWidth = window.innerWidth || document.body.clientWidth;
-//
-//     window.addEventListener('resize', function(){
-//         browserWidth = window.innerWidth || document.body.clientWidth;
-//         doStick();
-//     });
-//
-//     window.addEventListener("scroll", function() {
-//         distanceTop = document.body.scrollTop;
-//         doStick();
-//     });
-//
-//     function doStick() {
-//         if (isStickable()) {
-//             SIDEBAR_DISTANCE_TOP < distanceTop ? stick() : unStick();
-//         } else {
-//             unStick();
-//         }
-//     }
-//
-//     function stick() {
-//         sidebar.classList.add('stick');
-//         content.classList.add('offset-by-four');
-//     }
-//
-//     function unStick() {
-//         sidebar.classList.remove('stick')
-//         content.classList.remove('offset-by-four')
-//     }
-//
-//     function isStickable() {
-//         return browserWidth > WIDTH_BRAKE_POINT;
-//     }
-//
-// })()
