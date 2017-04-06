@@ -275,6 +275,7 @@ nav ul li a:focus {
 }
 input {
   margin: 10px;
+
 }
 
 .ui-autocomplete {
@@ -284,4 +285,8 @@ input {
             overflow-x: hidden;
             /* add padding to account for vertical scrollbar */
             padding-right: 20px;
-        } 
+        }
+
+#camps > li > div > img {
+  display: none;
+}

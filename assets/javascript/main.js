@@ -114,7 +114,7 @@ function NearestCity(latitude, longitude) {
           $("#closeCamps").append(
               `
                 <li>
-                  <div class="four columns alpha">
+                  <div class="four columns alpha>
                       <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
                           <h4>${location}</h4>
@@ -154,14 +154,17 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
         $("#camps").append(
             `
               <li class="working">
-                <div class="three columns alpha">
+                <div class="four columns alpha">
+                    <img class="lazy profile-image" src="${img}" alt="No Image">
                     <div class="palette-pad">
                         <h4 class='city'>${location}</h4>
                         <a href="${url}" target="_blank">
                             <h5>Facebook Page</h5>
                         </a>
                     </div>
+                    <hr/>
                 </div>
+
               </li>
             `
         );
@@ -177,26 +180,43 @@ $('#search').keyup(function () {
     //     // length  = this.value.length;
     valThis = valThis.replace(/\s+/g, '');
 
+    var length = parseInt(size);
+
+
     $('.city').each(function() {
       var currentLiText = $(this).text(),
           showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
         $(this).parent().parent().toggle(showCurrentLi);
         if(showCurrentLi==true){
           li.push(showCurrentLi);
+          if(li.length < 4){
+            $('#camps > li > div > img').css('display', 'block')
+          } else {
+            $('#camps > li > div > img').css('display', 'none')
+          }
+
         }
 
 
     });
+
+
+
+    // var html = $('#camps > li').html();
     var size = $('#camps').find('li').length;
     $("#res").html(li.length);
+
+    // `<img class="lazy profile-image" src="${img}" alt="No Image">`
+
+
 });
 
 
-$('#search').autocomplete({
-
-  source: cityNames
-
-  });
+// $('#search').autocomplete({
+//
+//   source: cityNames
+//
+//   });
 
 
 
