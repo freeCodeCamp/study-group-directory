@@ -192,7 +192,7 @@ $('#search').keyup(function () {
         //   } else {
         //     $('#camps > li > div > img').css('display', 'none')
         //   }
-        // }
+        }
     });
 
     var size = $('#camps').find('li').length;
