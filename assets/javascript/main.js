@@ -114,12 +114,11 @@ function NearestCity(latitude, longitude) {
           $("#closeCamps").append(
               `
                 <li>
-                  <div class="four columns alpha">
+                  <div class="sixteen columns alpha">
                       <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
-                          <h4>${location}</h4>
                           <a href="${url}" target="_blank">
-                              <h5>Facebook Page</h5>
+                              <h4>${location}</h4>
                           </a>
                       </div>
                   </div>
@@ -152,17 +151,13 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
         $("#camps").append(
             `
               <li class="working">
-                <div class="four columns alpha">
-                    <img class="lazy profile-image" src="${img}" alt="No Image">
+                <div class="sixteen columns alpha">
                     <div class="palette-pad">
-                        <h4 class='city'>${location}</h4>
-                        <a href="${url}" target="_blank">
-                            <h5>Facebook Page</h5>
+                        <a class='city' href="${url}" target="_blank">
+                          <h4>${location}</h4>
                         </a>
                     </div>
-                    <hr/>
                 </div>
-
               </li>
             `
         );
@@ -171,15 +166,11 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
 });
 
 //search
-$('#search').keyup(function () {
+$('#search').keyup(_.debounce(function () {
     var li = [];
     var valThis = this.value.toLowerCase();
     valThis = valThis.toLowerCase();
-    //     // length  = this.value.length;
     valThis = valThis.replace(/\s+/g, '');
-
-    var length = parseInt(size);
-
 
     $('.city').each(function() {
       var currentLiText = $(this).text(),
@@ -187,30 +178,13 @@ $('#search').keyup(function () {
         $(this).parent().parent().toggle(showCurrentLi);
         if(showCurrentLi==true){
           li.push(showCurrentLi);
-        //   if(li.length < 7){
-        //     $('#camps > li > div > img').css('display', 'block')
-        //   } else {
-        //     $('#camps > li > div > img').css('display', 'none')
-        //   }
         }
     });
 
     var size = $('#camps').find('li').length;
     $("#res").html(li.length);
 
-});
-
-// $('#search').autocomplete({
-//
-//   source: cityNames
-//
-//   });
-
-function showPosition(position) {
-    loc = "Latitude: " + position.coords.latitude +
-    " Longitude: " + position.coords.longitude;
-      console.log(loc);
-}
+}, 300));
 
 // responsive 16x9 iframe - restricted by parent's width
 var resizeIframe = function() {
