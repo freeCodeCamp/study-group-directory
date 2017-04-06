@@ -62,7 +62,13 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
       let coords = [loc.city, loc.state, loc.country, lat, lng];
 
       cities.push(coords);
-      cityNames.push(loc.city);
+
+      if(loc.state.length==0){
+        cityNames.push(loc.city+", "+loc.country);
+      } else {
+        cityNames.push(loc.city+", "+loc.state+", "+loc.country);
+      }
+
 
   });
 });
@@ -92,7 +98,7 @@ function NearestCity(latitude, longitude) {
 
   $.getJSON('assets/json/campsites2.json').then(function(data) {
       data.forEach(function(loc) {
-        const img = loc.photoUrl,
+        const img = loc.photoUrl || "/assets/img/bannercropped.png",
           city = loc.city,
           state = loc.state,
           country = loc.country,
@@ -126,11 +132,11 @@ function NearestCity(latitude, longitude) {
   });
 }
 
-
 //full list of locations
 $.getJSON('assets/json/campsites2.json').then(function(data) {
+
     data.forEach(function(loc) {
-      const img = loc.photoUrl || "https://rlv.zcache.com/sad_face_classic_round_sticker-r861f65fdcb8640dca0261c60f986f8a4_v9waf_8byvr_324.jpg",
+      const img = loc.photoUrl || "/assets/img/bannercropped.png",
         city = loc.city,
         state = loc.state,
         country = loc.country,
@@ -143,13 +149,12 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
           location = city + ", " + state + ", " + country;
         }
 
-
+/* <img class="lazy profile-image" data-original="${img}" alt="No Image"> */
 
         $("#camps").append(
             `
-              <li>
-                <div class="four columns alpha">
-                    <img class="lazy profile-image" data-original="${img}" alt="No Image">
+              <li class="working">
+                <div class="three columns alpha">
                     <div class="palette-pad">
                         <h4 class='city'>${location}</h4>
                         <a href="${url}" target="_blank">
@@ -162,35 +167,28 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
         );
 
     });
-  $("img.lazy").lazyload().removeClass("lazy");
-
 });
-
-
-
 
 //search
 $('#search').keyup(function () {
+    var li = [];
     var valThis = this.value.toLowerCase();
     valThis = valThis.toLowerCase();
     //     // length  = this.value.length;
     valThis = valThis.replace(/\s+/g, '');
 
-    // $('.city').each(function() {
-    //   var currentLiText = $(this).text(),
-    //       showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
-    //     $(this).parent().parent().toggle(showCurrentLi);
-    // });
+    $('.city').each(function() {
+      var currentLiText = $(this).text(),
+          showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
+        $(this).parent().parent().toggle(showCurrentLi);
+        if(showCurrentLi==true){
+          li.push(showCurrentLi);
+        }
 
-    $('#camps>li h4').each(function () {
-        var text  = $(this).text(),
-            textL = text.toLowerCase(),
-            textL = textL.replace(/\s+/g, ''),
-            htmlR = '<b>' + text.substr(0, length) + '</b>' + text.substr(length);
-        (textL.indexOf(valThis) == 0) ? $(this).html(htmlR).parent().parent().parent().show() : $(this).parent().parent().parent().hide();
 
     });
-
+    var size = $('#camps').find('li').length;
+    $("#res").html(li.length);
 });
 
 
