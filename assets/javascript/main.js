@@ -52,13 +52,13 @@ function PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
 var cities = [];
 var cityNames = [];
 
-$.getJSON('assets/json/locations.json').then(function(data) {
+$.getJSON('assets/json/campsites2.json').then(function(data) {
     data.forEach(function(loc) {
       const coordString = loc.coordinates;
       let values = coordString.split(" ");
 
-      var lat = ConvertDMSToDD(parseFloat(values[0]), values[1]);
-      var lng = ConvertDMSToDD(parseFloat(values[2]), values[3]);
+      var lat = ConvertDMSToDD(parseFloat(values[0]));
+      var lng = ConvertDMSToDD(parseFloat(values[1]));
       let coords = [loc.city, loc.state, loc.country, lat, lng];
 
       cities.push(coords);
@@ -67,12 +67,12 @@ $.getJSON('assets/json/locations.json').then(function(data) {
   });
 });
 
-function ConvertDMSToDD(degrees, direction) {
+function ConvertDMSToDD(degrees) {
     var dd = degrees;
 
-    if (direction == "S" || direction == "W") {
-        dd = dd * -1;
-    } // Don't do anything for N or E
+    // if (direction == "S" || direction == "W") {
+    //     dd = dd * -1;
+    // } // Don't do anything for N or E
     return dd;
 }
 
@@ -88,20 +88,30 @@ function NearestCity(latitude, longitude) {
     }
   }
 
-  $.getJSON('assets/json/locations.json').then(function(data) {
+
+
+  $.getJSON('assets/json/campsites2.json').then(function(data) {
       data.forEach(function(loc) {
-        const img = loc.photo,
+        const img = loc.photoUrl,
           city = loc.city,
+          state = loc.state,
+          country = loc.country,
           url = loc.url,
           coords = loc.coordinates;
+          let location = '';
+          if(state.length==0){
+            location = city + ", " + country;
+          } else {
+            location = city + ", " + state + ", " + country;
+          }
           if (city == cities[closest][0]){
           $("#closeCamps").append(
               `
                 <li>
                   <div class="four columns alpha">
-                      <img class="profile-image" src="${img}">
+                      <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
-                          <h4>${city}</h4>
+                          <h4>${location}</h4>
                           <a href="${url}" target="_blank">
                               <h5>Facebook Page</h5>
                           </a>
@@ -115,20 +125,33 @@ function NearestCity(latitude, longitude) {
 
   });
 }
+
+
 //full list of locations
-$.getJSON('assets/json/locations.json').then(function(data) {
+$.getJSON('assets/json/campsites2.json').then(function(data) {
     data.forEach(function(loc) {
-      const img = loc.photo,
+      const img = loc.photoUrl || "https://rlv.zcache.com/sad_face_classic_round_sticker-r861f65fdcb8640dca0261c60f986f8a4_v9waf_8byvr_324.jpg",
         city = loc.city,
+        state = loc.state,
+        country = loc.country,
         url = loc.url;
+        let location = '';
+
+        if(state.length==0){
+          location = city + ", " + country;
+        } else {
+          location = city + ", " + state + ", " + country;
+        }
+
+
 
         $("#camps").append(
             `
               <li>
                 <div class="four columns alpha">
-                    <img class="profile-image" src="${img}">
+                    <img class="lazy profile-image" data-original="${img}" alt="No Image">
                     <div class="palette-pad">
-                        <h4 class='city'>${city}</h4>
+                        <h4 class='city'>${location}</h4>
                         <a href="${url}" target="_blank">
                             <h5>Facebook Page</h5>
                         </a>
@@ -136,9 +159,14 @@ $.getJSON('assets/json/locations.json').then(function(data) {
                 </div>
               </li>
             `
-        )
-    })
+        );
+
+    });
+  $("img.lazy").lazyload().removeClass("lazy");
+
 });
+
+
 
 
 //search
@@ -148,20 +176,20 @@ $('#search').keyup(function () {
     //     // length  = this.value.length;
     valThis = valThis.replace(/\s+/g, '');
 
-
-    $('.city').each(function() {
-      var currentLiText = $(this).text(),
-          showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
-        $(this).parent().parent().toggle(showCurrentLi);
-    });
-
-    // $('#camps>li h4').each(function () {
-    //     var text  = $(this).text(),
-    //         textL = text.toLowerCase(),
-    //         textL = textL.replace(/\s+/g, ''),
-    //         htmlR = '<b>' + text.substr(0, length) + '</b>' + text.substr(length);
-    //     (textL.indexOf(valThis) == 0) ? $(this).html(htmlR).parent().parent().parent().show() : $(this).parent().parent().parent().hide();
+    // $('.city').each(function() {
+    //   var currentLiText = $(this).text(),
+    //       showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
+    //     $(this).parent().parent().toggle(showCurrentLi);
     // });
+
+    $('#camps>li h4').each(function () {
+        var text  = $(this).text(),
+            textL = text.toLowerCase(),
+            textL = textL.replace(/\s+/g, ''),
+            htmlR = '<b>' + text.substr(0, length) + '</b>' + text.substr(length);
+        (textL.indexOf(valThis) == 0) ? $(this).html(htmlR).parent().parent().parent().show() : $(this).parent().parent().parent().hide();
+
+    });
 
 });
 
