@@ -184,7 +184,7 @@ $('#search').keyup(_.debounce(function () {
     var size = $('#camps').find('li').length;
     $("#res").html(li.length);
 
-}, 300));
+}, 250));
 
 // responsive 16x9 iframe - restricted by parent's width
 var resizeIframe = function() {
