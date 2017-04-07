@@ -1,87 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
-  <meta name="csrf-token" content=_csrf/>
-  <link rel="canonical" href="http://freecodecamp.com/open2017"/>
-  <meta name="keywords" content="new years eve, new years 2017, learn to code, learn to program, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, mean stack, web development, development, engineering, learn node.js, learn angular.js, learn express.js, learn mongoDB, coding bootcamp, javascript, open source, hour of code"/>
-  <meta property="og:title" content="Free Code Camp Study Group Directory"/>
-  <meta property="og:site_name" content="Free Code Camp Study Group Directory"/>
-  <meta name="twitter:widgets:csp" content="on"/>
-  <meta name="p:domain_verify" content="d0bc047a482c03c24f1168004c2a216a"/>
-  <meta property="og:url" content="http://www.freecodecamp.com/open2017"/>
-  <meta property="og:description" content="Free Code Camp Study Group Directory"/>
-  <meta property="og:image" content="http://i.imgur.com/hmARGgp.png"/>
-  <meta property="og:type" content="article"/>
-  <meta property="article:publisher" content="https://www.facebook.com/freecodecamp"/>
-  <meta property="article:section" content="Responsive"/>
-  <link rel="publisher" href="https://plus.google.com/+Freecodecamp"/>
-  <link rel="author" href="https://plus.google.com/+Freecodecamp"/>
-  <meta name="description" content="Free Code Camp Study Group Directory"/>
-  <meta content="a40ee5d5dba3bb091ad783ebd2b1383f" name="p:domain_verify"/>
-  <meta name="msapplication-TileColor" content="#FFFFFF"/>
-  <meta name="msapplication-TileImage" content="/"/>
-  <link rel="android-chrome" sizes="144x144" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-144x144.png"/>
-  <link rel="android-chrome" sizes="192x192" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-192x192.png"/>
-  <link rel="android-chrome" sizes="36x36" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-36x36.png"/>
-  <link rel="android-chrome" sizes="48x48" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-48x48.png"/>
-  <link rel="android-chrome" sizes="72x72" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-72x72.png"/>
-  <link rel="android-chrome" sizes="96x96" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-96x96.png"/>
-  <link rel="android-chrome-manifest" href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-manifest.json"/>
-  <link rel="apple-touch-icon" sizes="114x114" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-114x114.png"/>
-  <link rel="apple-touch-icon" sizes="120x120" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-120x120.png"/>
-  <link rel="apple-touch-icon" sizes="144x144" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-144x144.png"/>
-  <link rel="apple-touch-icon" sizes="152x152" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-152x152.png"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png"/>
-  <link rel="apple-touch-icon" sizes="57x57" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-57x57.png"/>
-  <link rel="apple-touch-icon" sizes="60x60" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-60x60.png"/>
-  <link rel="apple-touch-icon" sizes="72x72" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-72x72.png"/>
-  <link rel="apple-touch-icon" sizes="76x76" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-76x76.png"/>
-  <link rel="apple-touch-icon-precomposed" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-precomposed.png"/>
-  <link rel="apple-touch-icon" href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon.png"/>
-  <link rel="favicon" sizes="16x16" href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-16x16.png"/>
-  <link rel="favicon" sizes="32x32" href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png"/>
-  <link rel="favicon" sizes="96x96" href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-96x96.png"/>
-  <link rel="mstile" sizes="144x144" href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-144x144.png"/>
-  <link rel="mstile" sizes="150x150" href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-150x150.png"/>
-  <link rel="mstile" sizes="310x310" href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x310.png"/>
-  <link rel="mstile" sizes="310x150" href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x150.png"/>
-  <link rel="mstile" sizes="70x70" href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-70x70.png"/>
-  <link rel="favicon" href="https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico"/>
-  <link rel="shortcut icon" href="//s3.amazonaws.com/freecodecamp/favicons/favicon.ico"/>
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-  <title>Free Code Camp Study Group Directory</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/grid.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
-	<script>
-	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
+  <title>Support freeCodeCamp's open source community with a donation by donating to our nonprofit</title>
+  <link href="http://freecodecamp.com" rel="canonical">
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
+  <meta content="learn to code, learn to program, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, mean stack, web development, development, engineering, learn node.js, learn angular.js, learn express.js, learn mongoDB, coding bootcamp, javascript, open source" name="keywords">
+  <meta content="Learn to code and help nonprofits" property="og:title">
+  <meta content="freeCodeCamp" property="og:site_name">
+  <meta content="on" name="twitter:widgets:csp">
+  <meta content="d0bc047a482c03c24f1168004c2a216a" name="p:domain_verify">
+  <meta content="http://www.freecodecamp.com" property="og:url">
+  <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." property="og:description">
+  <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" property="og:image">
+  <meta content="article" property="og:type">
+  <meta content="https://www.facebook.com/freecodecamp" property="article:publisher">
+  <meta content="Responsive" property="article:section">
+  <link href="https://plus.google.com/+Freecodecamp" rel="publisher">
+  <link href="https://plus.google.com/+Freecodecamp" rel="author">
+  <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." name="description">
+  <meta content="@freecodecamp" name="twitter:creator">
+  <meta content="http://www.freecodecamp.com" name="twitter:url">
+  <meta content="@freecodecamp" name="twitter:site">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" name="twitter:image:src">
+  <meta content="Learn to code and help nonprofits" name="twitter:title">
+  <meta content="We're an open source community of busy people who learn to code and build projects for nonprofits. Build your full stack web development portfolio today." name="twitter:description">
+  <meta content="a40ee5d5dba3bb091ad783ebd2b1383f" name="p:domain_verify">
+  <meta content="#FFFFFF" name="msapplication-TileColor">
+  <meta content="/" name="msapplication-TileImage">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-144x144.png" rel="android-chrome" sizes="144x144">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-192x192.png" rel="android-chrome" sizes="192x192">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-36x36.png" rel="android-chrome" sizes="36x36">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-48x48.png" rel="android-chrome" sizes="48x48">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-72x72.png" rel="android-chrome" sizes="72x72">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-96x96.png" rel="android-chrome" sizes="96x96">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-manifest.json" rel="android-chrome-manifest">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-16x16.png" rel="favicon" sizes="16x16">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png" rel="favicon" sizes="32x32">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-96x96.png" rel="favicon" sizes="96x96">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-144x144.png" rel="mstile" sizes="144x144">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-150x150.png" rel="mstile" sizes="150x150">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x310.png" rel="mstile" sizes="310x310">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x150.png" rel="mstile" sizes="310x150">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-70x70.png" rel="mstile" sizes="70x70">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico" rel="favicon">
+  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico" rel="shortcut icon">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  <!-- <link href="assets/css/style2.css" rel="stylesheet"> -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/grid.css" rel="stylesheet">
 
-	    ga('create', 'UA-55446531-1', 'auto');
-	    ga('send', 'pageview');
-	</script>
 </head>
-
-<body>
-	<header>
-		<div class="top-hero">
-			<h1 class='ginormous-text'>FCC Study Groups</h1>
-		</div>
-	</header>
+<body class="top-and-bottom-margins">
+  <script>
+  (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55446531-1', 'auto');
+  ga('require', 'GTM-KRCFSTQ');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script><!-- Leave the below lines alone!-->
+  <nav class="navbar navbar-default navbar-fixed-top nav-height">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img alt="learn to code javascript at freeCodeCamp logo"  src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg"></a>
+    </div>
+    <div class="return-to-free-code-camp">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden-xs return-to-free-code-camp">
+          <a href="https://www.freecodecamp.com">Return to freeCodeCamp.com</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 	<div class="container">
     <div class="twelve columns offset-by-one content">
 
 			<div class="doc-section" id="guests">
+				<h3 class="intro center">You can join some nearby study groups and code <br /> in-person together with other campers.</h3>
+			</div>
+      <p class="center">Note: you'll need a Facebook account in order to do this. <br> (If you don't have a Facebook account, we recommend you <br>create a new one with no personally identifying information.)</p>
+      <br>
+      <p><strong>Step 1: </strong>Join the study group closest to you (this page will request permission from your browser to know your location. Don't worry - your location data will never leave your browser window.)</p>
+      <br>
+
+		</div>
+    <div class="twelve columns offset-by-one content">
+
+			<div class="doc-section" id="guests">
 				<h2>Study Group Nearest You</h2>
 			</div>
+      <hr>
+      <br>
 
 			<div class="row clearfix" id="close-list">
         <ul id="closeCamps">
@@ -93,9 +123,17 @@
 
     <div class="twelve columns offset-by-one content">
 
+      <p><strong>Step 2: </strong>Join our freeCodeCamp Earth study group (links to https://www.facebook.com/groups/freeCodeCampEarth/)</p>
+      <p><strong>Step 3: </strong>Join study group in other cities you visit often (search box)</p>
+      <br>
+
+		</div>
+    <div class="twelve columns offset-by-one content">
+
 
 			<div class="doc-section" id="guests">
-				<h2>Study Groups</h2>
+				<h2>Study Group Search</h2>
+        <hr>
 
         <input type="text" name="search" id="search" placeholder="Search">
 
@@ -108,6 +146,7 @@
         <ul id="camps" class="camps">
 
         </ul>
+        <div class="loader"></div>
 			</div>
 		</div>
 	</div>
@@ -115,9 +154,9 @@
 	<!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
 
-</script>
+
 <script src="assets/javascript/main.js"></script>
 </body>
 

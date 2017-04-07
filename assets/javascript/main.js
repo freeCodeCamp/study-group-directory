@@ -164,27 +164,42 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
 
     });
 });
-
+var typing_timer;
 //search
-$('#search').keyup(_.debounce(function () {
+$('#search').on('keyup', function () {
     var li = [];
     var valThis = this.value.toLowerCase();
     valThis = valThis.toLowerCase();
     valThis = valThis.replace(/\s+/g, '');
 
-    $('.city').each(function() {
+    var searchFunc = function(){
+      $('.city').each(function() {
       var currentLiText = $(this).text(),
           showCurrentLi = ((currentLiText.toLowerCase()).replace(/\s+/g, '')).indexOf(valThis) !== -1;
         $(this).parent().parent().toggle(showCurrentLi);
+
         if(showCurrentLi==true){
           li.push(showCurrentLi);
-        }
-    });
 
+        }
+        setTimeout(function(){
+          $('.loader').hide();
+        }, 250);
+    });
     var size = $('#camps').find('li').length;
     $("#res").html(li.length);
+  }
 
-}, 250));
+
+    clearTimeout(this.typing_timer);
+
+    this.typing_timer = setTimeout(searchFunc, 250)
+    $('.loader').show();
+
+
+
+});
+
 
 // responsive 16x9 iframe - restricted by parent's width
 var resizeIframe = function() {
