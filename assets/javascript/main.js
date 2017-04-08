@@ -118,14 +118,14 @@ function NearestCity(latitude, longitude) {
                 </div>
                 <br>
                 <div class="alpha center">
-                  <p>
+                  <h4>
                     <a href="${url}" target="_blank">
                       <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
                         ${location}
                       </div>
                     </a>
-                  </p>
+                  </h4>
                 </div>
               `
           );
