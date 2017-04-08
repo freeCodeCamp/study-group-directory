@@ -98,7 +98,7 @@ function NearestCity(latitude, longitude) {
 
   $.getJSON('assets/json/campsites2.json').then(function(data) {
       data.forEach(function(loc) {
-        const img = loc.photoUrl || "assets/img/bannercropped.png",
+        const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
           city = loc.city,
           state = loc.state,
           country = loc.country,
@@ -138,7 +138,7 @@ function NearestCity(latitude, longitude) {
 $.getJSON('assets/json/campsites2.json').then(function(data) {
 
     data.forEach(function(loc) {
-      const img = loc.photoUrl || "assets/img/bannercropped.png",
+      const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
         city = loc.city,
         state = loc.state,
         country = loc.country,
