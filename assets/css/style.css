@@ -10,7 +10,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
  }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0;
+  color: #222;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -21,11 +21,11 @@ h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 h5 { font-size: 17px; line-height: 24px; }
 h6 { font-size: 14px; line-height: 21px; }
 
-#camps a, #camp a:visited { color: #939393; text-decoration: underline; outline: 0; }
+#camps a, #camp a:visited { color: #006400; outline: 0; }
 	#camp a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 
-#closeCamps a, #closeCamps a:visited { color: #939393; text-decoration: underline; outline: 0; }
+#closeCamps a, #closeCamps a:visited { color: #006400; outline: 0; }
 	#closeCamps a:hover, a:focus { color: #000; }
 
 p{
@@ -44,6 +44,7 @@ p img { margin: 0; }
 
 .palette-pad {
   min-height: 70px;
+  font-size: inherit;
 }
 
 
@@ -300,7 +301,7 @@ input {
 
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
+    border-top: 16px solid #006400; /* Dark green */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -311,4 +312,16 @@ input {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+a {
+  color: #006400;
+  a:hover, a:focus { 
+    color: #000; 
+  }
+}
+
+.big-search-field {
+  font-size: 32px;
+  width: 100%
 }
