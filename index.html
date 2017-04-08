@@ -5,7 +5,7 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
-  <title>Support freeCodeCamp's open source community with a donation by donating to our nonprofit</title>
+  <title>Find a local freeCodeCamp study group in your city and code together with other developers in person</title>
   <link href="http://freecodecamp.com" rel="canonical">
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -92,51 +92,32 @@
       </ul>
     </div>
   </nav>
-
+  <br>
 	<div class="container">
     <div class="twelve columns offset-by-one content">
-
 			<div class="doc-section" id="guests">
-				<h3 class="intro center">You can join some nearby study groups and code <br /> in-person together with other campers.</h3>
+				<h3 class="intro center">You can join a nearby study group and code in-person together with other campers.</h3>
 			</div>
-      <p class="center">Note: you'll need a Facebook account in order to do this. <br> (If you don't have a Facebook account, we recommend you <br>create a new one with no personally identifying information.)</p>
       <br>
       <p><strong>Step 1: </strong>Join the study group closest to you (this page will request permission from your browser to know your location. Don't worry - your location data will never leave your browser window.)</p>
       <br>
-
 		</div>
     <div class="twelve columns offset-by-one content">
+      <div id="closeCamps">
 
-			<div class="doc-section" id="guests">
-				<h2>Study Group Nearest You</h2>
-			</div>
-      <hr>
+      </div>
+		</div>
+
+    <div class="twelve columns offset-by-one content">
+
+      <p><strong>Step 2: </strong>Also join our <a href="https://www.facebook.com/groups/freeCodeCampEarth/" target="_blank">freeCodeCamp Earth study group</a>.</p>
+      <p><strong>Step 3: </strong>You can optionally join study groups in other cities you visit often:</p>
       <br>
 
-			<div class="row clearfix" id="close-list">
-        <ul id="closeCamps">
-
-        </ul>
-			</div>
-
-		</div>
-
-    <div class="twelve columns offset-by-one content">
-
-      <p><strong>Step 2: </strong>Join our freeCodeCamp Earth study group (links to https://www.facebook.com/groups/freeCodeCampEarth/)</p>
-      <p><strong>Step 3: </strong>Join study group in other cities you visit often (search box)</p>
-      <br>
-
-		</div>
-    <div class="twelve columns offset-by-one content">
-
-
 			<div class="doc-section" id="guests">
-				<h2>Study Group Search</h2>
-        <hr>
-
-        <input type="text" name="search" id="search" placeholder="Search">
-
+        <form>
+          <input type="text" name="search" id="search" placeholder="Search for a city" class="big-search-field">
+        </form>
         <p>
         Results: <span id="res"></span>
         </p>
@@ -144,7 +125,6 @@
 
 			<div class="row clearfix" id="guest-list">
         <ul id="camps" class="camps">
-
         </ul>
         <div class="loader"></div>
 			</div>
@@ -153,11 +133,9 @@
 
 	<!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
-
-
-<script src="assets/javascript/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+  <script src="assets/javascript/main.js"></script>
 </body>
 
 </html>
