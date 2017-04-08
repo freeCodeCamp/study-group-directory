@@ -98,15 +98,38 @@ header{
 }
 .navbar-right {
   float: right;
-  font-size: 1em;
+  font-size: 18px;
   margin-right: 15px;
   margin-top: 10px;
 }
+
+@media(max-width: 640px){
+  .navbar-brand {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .navbar-right {
+    float: right;
+    margin: 0 5px;
+    margin-top: -15px;
+
+  }
+  nav {
+    display: inline-block;
+  }
+}
+
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+}
+@media(max-width: 640px){
+  nav ul li a  {
+    font-size: 16px;
+
+  }
 }
 
 nav ul {
