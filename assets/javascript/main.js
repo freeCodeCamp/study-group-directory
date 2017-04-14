@@ -98,7 +98,7 @@ function NearestCity(latitude, longitude) {
 
   $.getJSON('assets/json/campsites2.json').then(function(data) {
       data.forEach(function(loc) {
-        const img = loc.photoUrl || "/assets/img/bannercropped.png",
+        const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
           city = loc.city,
           state = loc.state,
           country = loc.country,
@@ -113,16 +113,20 @@ function NearestCity(latitude, longitude) {
           if (city == cities[closest][0]){
           $("#closeCamps").append(
               `
-                <li>
-                  <div class="sixteen columns alpha">
+                <div class="center">
+                  <h3>The study group nearest you:</h3>
+                </div>
+                <br>
+                <div class="alpha center">
+                  <h4>
+                    <a href="${url}" target="_blank">
                       <img class="profile-image" src="${img}" alt="No Image">
                       <div class="palette-pad">
-                          <a href="${url}" target="_blank">
-                              <h4>${location}</h4>
-                          </a>
+                        ${location}
                       </div>
-                  </div>
-                </li>
+                    </a>
+                  </h4>
+                </div>
               `
           );
         }
@@ -134,7 +138,7 @@ function NearestCity(latitude, longitude) {
 $.getJSON('assets/json/campsites2.json').then(function(data) {
 
     data.forEach(function(loc) {
-      const img = loc.photoUrl || "/assets/img/bannercropped.png",
+      const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
         city = loc.city,
         state = loc.state,
         country = loc.country,
@@ -152,11 +156,11 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
             `
               <li class="working">
                 <div class="sixteen columns alpha">
-                    <div class="palette-pad">
-                        <a class='city' href="${url}" target="_blank">
-                          <h4>${location}</h4>
-                        </a>
-                    </div>
+                  <p>
+                    <a class='city' href="${url}" target="_blank">
+                      ${location}
+                    </a>
+                  </p>
                 </div>
               </li>
             `
