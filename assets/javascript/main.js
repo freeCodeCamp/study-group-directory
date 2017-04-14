@@ -83,55 +83,61 @@ function ConvertDMSToDD(degrees) {
 }
 
 function NearestCity(latitude, longitude) {
-  var mindif = 99999;
-  var closest;
+  var mindif = 20;
+  var closest = [];
 
   for (index = 0; index < cities.length; ++index) {
     var dif = PythagorasEquirectangular(latitude, longitude, cities[index][3], cities[index][4]);
     if (dif < mindif) {
-      closest = index;
-      mindif = dif;
+      closest.push({index:index, dist:dif});
     }
   }
 
+  closest = closest.sort(function(a, b){
+    return a.dist - b.dist;
+  });
 
+  console.log(closest);
 
   $.getJSON('assets/json/campsites2.json').then(function(data) {
-      data.forEach(function(loc) {
-        const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
-          city = loc.city,
-          state = loc.state,
-          country = loc.country,
-          url = loc.url,
-          coords = loc.coordinates;
-          let location = '';
-          if(state.length==0){
-            location = city + ", " + country;
-          } else {
-            location = city + ", " + state + ", " + country;
-          }
-          if (city == cities[closest][0]){
-          $("#closeCamps").append(
-              `
-                <div class="center">
-                  <h3>The study group nearest you:</h3>
+    $("#closeCamps").append(
+      `
+        <div class="center">
+          <h3>The study groups nearest you:</h3>
+        </div>
+        <br>
+      `
+    );
+    for (let i = 0; i < closest.length; i++){
+      let loc = data[closest[i].index];
+      let img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
+        city = loc.city,
+        state = loc.state,
+        country = loc.country,
+        url = loc.url,
+        coords = loc.coordinates;
+      let location = '';
+      if(state.length==0){
+        location = city + ", " + country;
+      } else {
+        location = city + ", " + state + ", " + country;
+      }
+      $("#closeCamps").append(
+        `
+          <div class="alpha center">
+            <h4>
+              <a href="${url}" target="_blank">
+                <img class="profile-image" src="${img}" alt="No Image">
+                <div class="palette-pad">
+                  ${location} - ${closest[i].dist.toFixed(2)} km
                 </div>
-                <br>
-                <div class="alpha center">
-                  <h4>
-                    <a href="${url}" target="_blank">
-                      <img class="profile-image" src="${img}" alt="No Image">
-                      <div class="palette-pad">
-                        ${location}
-                      </div>
-                    </a>
-                  </h4>
-                </div>
-              `
-          );
-        }
-      });
-    });
+              </a>
+            </h4>
+          </div>
+        `
+      );
+     }
+   });
 }
 
 //full list of locations
