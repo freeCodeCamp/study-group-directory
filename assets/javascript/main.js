@@ -83,7 +83,7 @@ function ConvertDMSToDD(degrees) {
 }
 
 function NearestCity(latitude, longitude) {
-  var mindif = 20;
+  var mindif = 100;
   var closest = [];
 
   for (index = 0; index < cities.length; ++index) {

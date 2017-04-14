@@ -264,10 +264,13 @@ nav ul {
 .twitter-blue {
   color: #0084b4
 }
+
+/*176 220 264 330*/
+
 .profile-image {
 	border-radius: 0%;
-  height: 176px;
-  width: 220px;
+  height: 264px;
+  width: 330px;
 }
 
 .big-break {
@@ -316,8 +319,8 @@ input {
 
 a {
   color: #006400;
-  a:hover, a:focus { 
-    color: #000; 
+  a:hover, a:focus {
+    color: #000;
   }
 }
 
