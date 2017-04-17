@@ -97,8 +97,6 @@ function NearestCity(latitude, longitude) {
     return a.dist - b.dist;
   });
 
-  console.log(closest);
-
   $.getJSON('assets/json/campsites2.json').then(function(data) {
     $("#closeCamps").append(
       `
