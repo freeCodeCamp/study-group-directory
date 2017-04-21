@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 $('.hidden-code').click(function(e) {
     e.preventDefault();
     $(this).children('.gist').slideToggle();
@@ -13,24 +15,26 @@ $('.example-grid').children().hover(
         $(this).html(originalText);
     }
 );
+
+$('#select-search-nearby').change(function(e){
+  e.preventDefault();
+  $('#closeCamps').empty();
+  searchNearby(parseInt($('#select-search-nearby').val()));
+});
+
+searchNearby(parseInt($('#select-search-nearby').val()));
+
 // find close to coordinates
-
-function getLocation() {
+function searchNearby(maxRadius) {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(UserLocation);
-
+      navigator.geolocation.getCurrentPosition(function(position){
+        NearestCities(position.coords.latitude, position.coords.longitude, maxRadius);
+      });
     } else {
         // loc = "Geolocation is not supported by this browser.";
-        NearestCity(38.8951, -77.0367);
+        NearestCities(38.8951, -77.0367, maxRadius);
     }
 }
-getLocation();
-
-// Callback function for asynchronous call to HTML5 geolocation
-function UserLocation(position) {
-  NearestCity(position.coords.latitude, position.coords.longitude);
-}
-
 
 // Convert Degress to Radians
 function Deg2Rad(deg) {
@@ -82,13 +86,12 @@ function ConvertDMSToDD(degrees) {
     return dd;
 }
 
-function NearestCity(latitude, longitude) {
-  var mindif = 100;
+function NearestCities(latitude, longitude, maxRadius) {
   var closest = [];
 
   for (index = 0; index < cities.length; ++index) {
     var dif = PythagorasEquirectangular(latitude, longitude, cities[index][3], cities[index][4]);
-    if (dif < mindif) {
+    if (dif < maxRadius) {
       closest.push({index:index, dist:dif});
     }
   }
@@ -98,14 +101,7 @@ function NearestCity(latitude, longitude) {
   });
 
   $.getJSON('assets/json/campsites2.json').then(function(data) {
-    $("#closeCamps").append(
-      `
-        <div class="center">
-          <h3>The study groups nearest you:</h3>
-        </div>
-        <br>
-      `
-    );
+    $('#search-nearby').show();
     for (let i = 0; i < closest.length; i++){
       let loc = data[closest[i].index];
       let img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
@@ -220,3 +216,4 @@ var resizeIframe = function() {
 };
 $(window).on('resize', resizeIframe);
 resizeIframe();
+});
