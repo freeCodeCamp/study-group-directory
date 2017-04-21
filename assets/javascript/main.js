@@ -128,6 +128,7 @@ function NearestCity(latitude, longitude) {
                 <img class="profile-image" src="${img}" alt="No Image">
                 <div class="palette-pad">
                   ${location} - ${closest[i].dist.toFixed(2)} km
+                  (${((closest[i].dist.toFixed(2))*0.621371).toFixed(2)} mi)
                 </div>
               </a>
             </h4>
