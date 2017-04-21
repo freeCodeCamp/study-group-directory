@@ -328,3 +328,17 @@ a {
   font-size: 32px;
   width: 100%
 }
+
+#search-nearby {
+  display: none;
+}
+
+#select-search-nearby {
+  /*border: 0;
+  -webkit-appearance: none;*/
+  color: #222;
+  font-size: 28px;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+}
