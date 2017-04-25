@@ -18,11 +18,13 @@ $('.example-grid').children().hover(
 
 $('#select-search-nearby').change(function(e){
   e.preventDefault();
-  $('#closeCamps').empty();
-  searchNearby(parseInt($('#select-search-nearby').val()));
+  $('#closeCamps').children().hide();
+  $('#closeCamps>div').filter(function(){
+    return parseInt($('h4>a>div', this)[0].innerText.match(/(\d+.\d\d)\skm/)[1]) < parseInt($('#select-search-nearby').val());
+  }).show();
 });
 
-searchNearby(parseInt($('#select-search-nearby').val()));
+searchNearby(100);
 
 // find close to coordinates
 function searchNearby(maxRadius) {
