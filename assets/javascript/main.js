@@ -58,7 +58,7 @@ function PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
 var cities = [];
 var cityNames = [];
 
-$.getJSON('assets/json/campsites2.json').then(function(data) {
+$.getJSON('assets/json/campsitesfinal.json').then(function(data) {
     data.forEach(function(loc) {
       const coordString = loc.coordinates;
       let values = coordString.split(" ");
@@ -102,7 +102,7 @@ function NearestCities(latitude, longitude, maxRadius) {
     return a.dist - b.dist;
   });
 
-  $.getJSON('assets/json/campsites2.json').then(function(data) {
+  $.getJSON('assets/json/campsitesfinal.json').then(function(data) {
     $('#search-nearby').show();
     for (let i = 0; i < closest.length; i++){
       let loc = data[closest[i].index];
@@ -138,7 +138,7 @@ function NearestCities(latitude, longitude, maxRadius) {
 }
 
 //full list of locations
-$.getJSON('assets/json/campsites2.json').then(function(data) {
+$.getJSON('assets/json/campsitesfinal.json').then(function(data) {
 
     data.forEach(function(loc) {
       const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
