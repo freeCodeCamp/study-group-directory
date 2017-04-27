@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/freeCodeCamp/study-group-directory/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/study-group-directory#readme"
+  "homepage": "https://github.com/freeCodeCamp/study-group-directory#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-json": "^1.2.0"
+  }
 }
