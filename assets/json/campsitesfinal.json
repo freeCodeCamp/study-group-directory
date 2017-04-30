@@ -851,7 +851,7 @@
     "url": "https://www.facebook.com/groups/free.code.camp.brasilia",
     "city": "Brasilia",
     "state": "Distrito Federal",
-    "country": "",
+    "country": "Brazil",
     "coordinates": "-15.7934, -47.882293",
     "photoUrl": ""
   },
@@ -1115,7 +1115,7 @@
     "url": "https://www.facebook.com/groups/free.code.camp.teresina.piaui",
     "city": "Teresina",
     "state": "Piauí",
-    "country": "",
+    "country": "Brazil",
     "coordinates": "-5.08964, -42.809588",
     "photoUrl": ""
   },
@@ -4081,17 +4081,17 @@
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.hk",
-    "city": "Hong Kong",
+    "city": "",
     "state": "",
-    "country": "",
+    "country": "Hong Kong",
     "coordinates": "22.279328, 114.162813",
     "photoUrl": ""
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.hong.kong.eastern.district",
-    "city": "Hong Kong - Eastern District",
+    "city": "Eastern District",
     "state": "",
-    "country": "",
+    "country": "Hong Kong",
     "coordinates": "39.78373, -100.445882",
     "photoUrl": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/11187854_10206389067747123_7576822666849626492_o.jpg?oh=06882e988a0410c0b0599a162a4a8a5e&oe=5954DEF2"
   },
@@ -5835,7 +5835,7 @@
     "url": "https://www.facebook.com/groups/free.code.camp.luxembourg",
     "city": "Luxembourg",
     "state": "",
-    "country": "",
+    "country": "Luxembourg",
     "coordinates": "48.849513, 2.332417",
     "photoUrl": ""
   },
@@ -8449,9 +8449,9 @@
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.singapore",
-    "city": "Singapore",
+    "city": "",
     "state": "",
-    "country": "",
+    "country": "Singapore",
     "coordinates": "1.290453, 103.852038",
     "photoUrl": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12932806_10153815026644584_848254471743761253_n.jpg?oh=cfd7e3cd0f7a2c8477b60ee32240eada&oe=594DF714"
   },
