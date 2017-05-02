@@ -69,11 +69,11 @@ $.getJSON('assets/json/campsitesfinal.json').then(function(data) {
 
       cities.push(coords);
 
-      if(loc.state.length==0){
-        cityNames.push(loc.city+", "+loc.country);
-      } else {
-        cityNames.push(loc.city+", "+loc.state+", "+loc.country);
-      }
+      cityNames.push(
+        (loc.city.length > 0 ? loc.city + ", " : "") +
+        (loc.state.length > 0 ? loc.state + ", " : "") +
+        loc.country
+      );
 
 
   });
@@ -113,11 +113,11 @@ function NearestCities(latitude, longitude, maxRadius) {
         url = loc.url,
         coords = loc.coordinates;
       let location = '';
-      if(state.length==0){
-        location = city + ", " + country;
-      } else {
-        location = city + ", " + state + ", " + country;
-      }
+
+      location = (city.length > 0 ? city + ", " : "") +
+        (state.length > 0 ? state + ", " : "") +
+        country;
+
       $("#closeCamps").append(
         `
           <div class="alpha center">
@@ -148,12 +148,9 @@ $.getJSON('assets/json/campsitesfinal.json').then(function(data) {
         url = loc.url;
         let location = '';
 
-        if(state.length==0){
-          location = city + ", " + country;
-        } else {
-          location = city + ", " + state + ", " + country;
-        }
-
+      location = (city.length > 0 ? city + ", " : "") +
+        (state.length > 0 ? state + ", " : "") +
+        country;
 
         $("#camps").append(
             `
