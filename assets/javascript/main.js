@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+$('form').on('submit', function(e) { e.preventDefault(); });
+
 $('.hidden-code').click(function(e) {
     e.preventDefault();
     $(this).children('.gist').slideToggle();
