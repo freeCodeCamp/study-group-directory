@@ -303,11 +303,12 @@ input {
 }
 
 .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #006400; /* Dark green */
+    margin: 0 auto;
+    border: 25px solid #f3f3f3; /* Light grey */
+    border-top: 25px solid #006400; /* Dark green */
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 75px;
+    height: 75px;
     animation: spin 2s linear infinite;
     display: none;
 }
