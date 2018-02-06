@@ -10160,14 +10160,6 @@
     "photoUrl": ""
   },
   {
-    "url": "https://www.facebook.com/groups/valley.worx.modesto/",
-    "city": "Modesto",
-    "state": "California",
-    "country": "United States",
-    "coordinates": "37.705885, -121.070784",
-    "photoUrl": "https://secure.meetupstatic.com/photos/event/6/3/d/c/highres_465445564.jpeg"
-  },
-  {
     "url": "https://www.facebook.com/groups/free.code.camp.modesto",
     "city": "Modesto",
     "state": "California",
@@ -14390,5 +14382,13 @@
     "country": "Zimbabwe",
     "coordinates": "-16.774303, 31.582812",
     "photoUrl": ""
-  }
+  },
+  {
++    "url": "https://www.facebook.com/groups/free.code.camp.nkongsamba/",
++    "city": "Nkongsamba",
++    "state": "",
++    "country": "Cameroon",
++    "coordinates": "4.964145, 9.935545",
++    "photoUrl": ""
++  }
 ]
