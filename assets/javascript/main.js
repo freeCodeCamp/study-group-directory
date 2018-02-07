@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+$('form').on('submit', function(e) { e.preventDefault(); });
+
 $('.hidden-code').click(function(e) {
     e.preventDefault();
     $(this).children('.gist').slideToggle();
@@ -13,24 +17,28 @@ $('.example-grid').children().hover(
         $(this).html(originalText);
     }
 );
+
+$('#select-search-nearby').change(function(e){
+  e.preventDefault();
+  $('#closeCamps').children().hide();
+  $('#closeCamps>div').filter(function(){
+    return parseInt($('h4>a>div', this)[0].innerText.match(/(\d+.\d\d)\skm/)[1]) < parseInt($('#select-search-nearby').val());
+  }).show();
+});
+
+searchNearby(100);
+
 // find close to coordinates
-
-function getLocation() {
+function searchNearby(maxRadius) {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(UserLocation);
-
+      navigator.geolocation.getCurrentPosition(function(position){
+        NearestCities(position.coords.latitude, position.coords.longitude, maxRadius);
+      });
     } else {
         // loc = "Geolocation is not supported by this browser.";
-        NearestCity(38.8951, -77.0367);
+        NearestCities(38.8951, -77.0367, maxRadius);
     }
 }
-getLocation();
-
-// Callback function for asynchronous call to HTML5 geolocation
-function UserLocation(position) {
-  NearestCity(position.coords.latitude, position.coords.longitude);
-}
-
 
 // Convert Degress to Radians
 function Deg2Rad(deg) {
@@ -52,7 +60,7 @@ function PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
 var cities = [];
 var cityNames = [];
 
-$.getJSON('assets/json/campsites2.json').then(function(data) {
+$.getJSON('assets/json/campsitesfinal.json').then(function(data) {
     data.forEach(function(loc) {
       const coordString = loc.coordinates;
       let values = coordString.split(" ");
@@ -63,11 +71,11 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
 
       cities.push(coords);
 
-      if(loc.state.length==0){
-        cityNames.push(loc.city+", "+loc.country);
-      } else {
-        cityNames.push(loc.city+", "+loc.state+", "+loc.country);
-      }
+      cityNames.push(
+        (loc.city.length > 0 ? loc.city + ", " : "") +
+        (loc.state.length > 0 ? loc.state + ", " : "") +
+        loc.country
+      );
 
 
   });
@@ -82,60 +90,57 @@ function ConvertDMSToDD(degrees) {
     return dd;
 }
 
-function NearestCity(latitude, longitude) {
-  var mindif = 99999;
-  var closest;
+function NearestCities(latitude, longitude, maxRadius) {
+  var closest = [];
 
   for (index = 0; index < cities.length; ++index) {
     var dif = PythagorasEquirectangular(latitude, longitude, cities[index][3], cities[index][4]);
-    if (dif < mindif) {
-      closest = index;
-      mindif = dif;
+    if (dif < maxRadius) {
+      closest.push({index:index, dist:dif});
     }
   }
 
+  closest = closest.sort(function(a, b){
+    return a.dist - b.dist;
+  });
 
+  $.getJSON('assets/json/campsitesfinal.json').then(function(data) {
+    $('#search-nearby').show();
+    for (let i = 0; i < closest.length; i++){
+      let loc = data[closest[i].index];
+      let img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
+        city = loc.city,
+        state = loc.state,
+        country = loc.country,
+        url = loc.url,
+        coords = loc.coordinates;
+      let location = '';
 
-  $.getJSON('assets/json/campsites2.json').then(function(data) {
-      data.forEach(function(loc) {
-        const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
-          city = loc.city,
-          state = loc.state,
-          country = loc.country,
-          url = loc.url,
-          coords = loc.coordinates;
-          let location = '';
-          if(state.length==0){
-            location = city + ", " + country;
-          } else {
-            location = city + ", " + state + ", " + country;
-          }
-          if (city == cities[closest][0]){
-          $("#closeCamps").append(
-              `
-                <div class="center">
-                  <h3>The study group nearest you:</h3>
+      location = (city.length > 0 ? city + ", " : "") +
+        (state.length > 0 ? state + ", " : "") +
+        country;
+
+      $("#closeCamps").append(
+        `
+          <div class="alpha center">
+            <h4>
+              <a href="${url}" target="_blank">
+                <img class="profile-image" src="${img}" alt="No Image">
+                <div class="palette-pad">
+                  ${location} - ${closest[i].dist.toFixed(2)} km
+                  (${((closest[i].dist.toFixed(2))*0.621371).toFixed(2)} mi)
                 </div>
-                <br>
-                <div class="alpha center">
-                  <h4>
-                    <a href="${url}" target="_blank">
-                      <img class="profile-image" src="${img}" alt="No Image">
-                      <div class="palette-pad">
-                        ${location}
-                      </div>
-                    </a>
-                  </h4>
-                </div>
-              `
-          );
-        }
-      });
-    });
+              </a>
+            </h4>
+          </div>
+        `
+      );
+     }
+   });
 }
 
 //full list of locations
-$.getJSON('assets/json/campsites2.json').then(function(data) {
+$.getJSON('assets/json/campsitesfinal.json').then(function(data) {
 
     data.forEach(function(loc) {
       const img = loc.photoUrl || "https://s3.amazonaws.com/freecodecamp/bannercropped.png",
@@ -145,12 +150,9 @@ $.getJSON('assets/json/campsites2.json').then(function(data) {
         url = loc.url;
         let location = '';
 
-        if(state.length==0){
-          location = city + ", " + country;
-        } else {
-          location = city + ", " + state + ", " + country;
-        }
-
+      location = (city.length > 0 ? city + ", " : "") +
+        (state.length > 0 ? state + ", " : "") +
+        country;
 
         $("#camps").append(
             `
@@ -215,3 +217,4 @@ var resizeIframe = function() {
 };
 $(window).on('resize', resizeIframe);
 resizeIframe();
+});

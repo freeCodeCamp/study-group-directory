@@ -1,0 +1,25 @@
+{
+  "name": "study-groups-fcc",
+  "version": "0.0.1",
+  "description": "freeCodeCamp study group directory static page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\"",
+    "pretest": "npm run lint",
+    "lint": "eslint . --ext .json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/study-group-directory.git"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/study-group-directory/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/study-group-directory#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-json": "^1.2.0"
+  }
+}

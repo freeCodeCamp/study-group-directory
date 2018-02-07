@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
   <title>Find a local freeCodeCamp study group in your city and code together with other developers in person</title>
-  <link href="http://freecodecamp.com" rel="canonical">
+  <link href="https://www.freecodecamp.org" rel="canonical">
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -16,7 +16,7 @@
   <meta content="freeCodeCamp" property="og:site_name">
   <meta content="on" name="twitter:widgets:csp">
   <meta content="d0bc047a482c03c24f1168004c2a216a" name="p:domain_verify">
-  <meta content="http://www.freecodecamp.com" property="og:url">
+  <meta content="https://www.freecodecamp.org" property="og:url">
   <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." property="og:description">
   <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" property="og:image">
   <meta content="article" property="og:type">
@@ -26,7 +26,7 @@
   <link href="https://plus.google.com/+Freecodecamp" rel="author">
   <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." name="description">
   <meta content="@freecodecamp" name="twitter:creator">
-  <meta content="http://www.freecodecamp.com" name="twitter:url">
+  <meta content="https://www.freecodecamp.org" name="twitter:url">
   <meta content="@freecodecamp" name="twitter:site">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" name="twitter:image:src">
@@ -87,49 +87,66 @@
     <div class="return-to-free-code-camp">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs return-to-free-code-camp">
-          <a href="https://www.freecodecamp.com">Return to freeCodeCamp.com</a>
+          <a href="https://www.freecodecamp.org">Return to freeCodeCamp.org</a>
         </li>
       </ul>
     </div>
   </nav>
   <br>
-	<div class="container">
-    <div class="twelve columns offset-by-one content">
-			<div class="doc-section" id="guests">
-				<h3 class="intro center">You can join a nearby study group and code in-person together with other campers.</h3>
-			</div>
-      <br>
-      <p><strong>Step 1: </strong>Join the study group closest to you. (This page will request permission from your browser to know your location. Don't worry - your location data will never leave your browser window.)</p>
-      <br>
-		</div>
-    <div class="twelve columns offset-by-one content">
-      <div id="closeCamps">
 
+  <div class="container">
+    <div class="row">
+      <div class="eleven columns offset-by-one content">
+        <div class="doc-section" id="guests">
+          <h3 class="intro center">You can join a nearby study group and code in-person together with other campers.</h3>
+        </div>
+        <br>
+        <p><strong>Step 1: </strong>Join the study group closest to you. (This page will request permission from your browser to know your location. Don't worry - your location data will never leave your browser window.)</p>
       </div>
-		</div>
+    </div>
+    <div class="row">
+      <div class="eleven columns offset-by-one content">
+        <div id="search-nearby" class="center">
+          <h3>Study groups within
+            <select id="select-search-nearby">
+              <option value="25">25 km</option>
+              <option value="50">50 km</option>
+              <option value="100" selected>100 km</option>
+            </select>
+          </h3>
+        </div>
+      </div>
+    </div>
 
-    <div class="twelve columns offset-by-one content">
+    <div class="row">
+      <div class="eleven columns offset-by-one content">
+        <div id="closeCamps">
 
-      <p><strong>Step 2: </strong>Also join our <a href="https://www.facebook.com/groups/freeCodeCampEarth/" target="_blank">freeCodeCamp Earth study group</a>.</p>
-      <p><strong>Step 3: </strong>You can also join study groups in other cities you visit often. Search for them below. (If you can't find a study group that's close enough, <a href="https://forum.freecodecamp.com/t/how-to-create-a-local-group/19532" target="_blank">you can create one</a>).
-      <br>
+        </div>
+      </div>
+    </div>
 
-			<div class="doc-section" id="guests">
-        <form>
-          <input type="text" name="search" id="search" placeholder="Search for a city" class="big-search-field">
-        </form>
-        <p>
-        Results: <span id="res"></span>
-        </p>
-			</div>
-
-			<div class="row clearfix" id="guest-list">
-        <ul id="camps" class="camps">
-        </ul>
-        <div class="loader"></div>
-			</div>
-		</div>
-	</div>
+    <div class="row">
+      <div class="eleven columns offset-by-one content">
+        <p><strong>Step 2: </strong>Also join our <a href="https://www.facebook.com/groups/freeCodeCampEarth/" target="_blank">freeCodeCamp Earth study group</a>.</p>
+        <p><strong>Step 3: </strong>You can also join study groups in other cities you visit often. Search for them below. (If you can't find a study group that's close enough, <a href="https://forum.freecodecamp.org/t/how-to-create-a-local-group/19532" target="_blank">you can create one</a>).
+        <br>
+        <div class="doc-section" id="guests">
+          <form>
+            <input type="text" name="search" id="search" placeholder="Search for a city" class="big-search-field">
+          </form>
+          <p>
+          Results: <span id="res"></span>
+          </p>
+        </div>
+        <div class="row clearfix" id="guest-list">
+          <ul id="camps" class="camps">
+          </ul>
+          <div class="loader"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 	<!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
