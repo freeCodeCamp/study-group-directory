@@ -14550,5 +14550,45 @@
     "country": "Nepal",
     "coordinates": "27.0449005,84.86721709999999",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.onitsha.ng",
+    "city": "Onitsha",
+    "state": "Anambra",
+    "country": "Nigeria",
+    "coordinates": "6.1329419,6.7923994",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.orangeburgsc",
+    "city": "Orangeburg",
+    "state": "South Carolina",
+    "country": "United States",
+    "coordinates": "33.4918203,-80.8556476",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.paisley",
+    "city": "Paisley",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "coordinates": "55.847258,-4.440113999999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.paynesville",
+    "city": "Paynesville",
+    "state": "Minnesota",
+    "country": "United States",
+    "coordinates": "45.3768459,-94.72364879999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.pescara",
+    "city": "Rochester",
+    "state": "Minnesota",
+    "country": "United States",
+    "coordinates": "44.021987,-92.462571",
+    "photoUrl": ""
   }
 ]
