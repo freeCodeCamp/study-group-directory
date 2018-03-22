@@ -14590,5 +14590,45 @@
     "country": "United States",
     "coordinates": "44.021987,-92.462571",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bishkek",
+    "city": "Bishkek",
+    "state": "Chuy Province",
+    "country": "Kyrgyzstan",
+    "coordinates": "42.8746212,74.5697617",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bulawayo",
+    "city": "Bulawayo",
+    "state": "Bulawayo Province",
+    "country": "Zimbabwe",
+    "coordinates": "-20.1325066,28.626479",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.carrollton.il",
+    "city": "Carrollton",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "39.3022693,-90.4070632",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.chico",
+    "city": "Chico",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "39.729575,-121.8473287",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.cookeville.tennessee",
+    "city": "Cookeville",
+    "state": "Tennessee",
+    "country": "United States",
+    "coordinates": "36.162839,-85.5016423",
+    "photoUrl": ""
   }
 ]
