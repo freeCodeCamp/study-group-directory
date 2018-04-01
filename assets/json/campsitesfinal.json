@@ -7056,14 +7056,6 @@
     "photoUrl": ""
   },
   {
-    "url": "https://www.facebook.com/groups/free.code.camp.attock",
-    "city": "Pakistan",
-    "state": "",
-    "country": "Pakistan",
-    "coordinates": "25.189274, 64.605377",
-    "photoUrl": ""
-  },
-  {
     "url": "https://www.facebook.com/groups/free.code.camp.badin",
     "city": "Badin",
     "state": "",
@@ -14629,6 +14621,62 @@
     "state": "Tennessee",
     "country": "United States",
     "coordinates": "36.162839,-85.5016423",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.cumana",
+    "city": "Cumana",
+    "state": "Sucre",
+    "country": "Venezuela",
+    "coordinates": "10.431916,-64.18331599999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.dala",
+    "city": "Dale",
+    "state": "Indiana",
+    "country": "United States",
+    "coordinates": "38.1689415,-86.98999660000001",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.darlington.pa",
+    "city": "Darlington",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "coordinates": "40.8097107,-80.4244418",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.east.boston",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "country": "United States",
+    "coordinates": "42.37021370000001,-71.0388601",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.eldoret",
+    "city": "Eldoret",
+    "state": "Uasin Gishu County",
+    "country": "Kenya",
+    "coordinates": "0.5142774999999999,35.2697802",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.enugucity",
+    "city": "Enugu",
+    "state": "Enugu",
+    "country": "Nigeria",
+    "coordinates": "6.4583661,7.5463885",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.fayettevile.ga",
+    "city": "Fayetteville",
+    "state": "Georgia",
+    "country": "United States",
+    "coordinates": "33.4487257,-84.4549262",
     "photoUrl": ""
   }
 ]
