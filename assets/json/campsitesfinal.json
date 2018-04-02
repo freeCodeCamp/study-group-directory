@@ -14678,5 +14678,53 @@
     "country": "United States",
     "coordinates": "33.4487257,-84.4549262",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ferizaj",
+    "city": "Uroshevac",
+    "state": "",
+    "country": "",
+    "coordinates": "42.3701844,21.1483281",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.fuenlabrada",
+    "city": "Fuenlabrada",
+    "state": "Community of Madrid",
+    "country": "Spain",
+    "coordinates": "40.2902056,-3.8035477",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.jundiai.sp.br",
+    "city": "Jundiaí",
+    "state": "State of São Paulo",
+    "country": "Brazil",
+    "coordinates": "-23.1857076,-46.8978057",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Kangundo",
+    "city": "Kangundo",
+    "state": "Machakos County",
+    "country": "Kenya",
+    "coordinates": "-1.3055671,37.3453215",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kedah",
+    "city": "",
+    "state": "Kedah",
+    "country": "Malaysia",
+    "coordinates": "6.1183964,100.3684595",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.khanpur",
+    "city": "Khanpur",
+    "state": "Punjab",
+    "country": "Pakistan",
+    "coordinates": "28.6331825,70.6573694",
+    "photoUrl": ""
   }
 ]
