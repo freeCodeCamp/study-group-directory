@@ -14726,5 +14726,61 @@
     "country": "Pakistan",
     "coordinates": "28.6331825,70.6573694",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Kisumu",
+    "city": "Kisumu",
+    "state": "Kisumu County",
+    "country": "Kenya",
+    "coordinates": "-0.0917016,34.7679568",
+    "photoUrl": ""
+  }
+{
+    "url": "https://www.facebook.com/groups/free.code.camp.pordenone",
+    "city": "",
+    "state": "Friuli-Venezia Giulia",
+    "country": "Italy",
+    "coordinates": "45.9563684,12.661452",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.posadas",
+    "city": "Posadas",
+    "state": "Misiones Province",
+    "country": "Argentina",
+    "coordinates": "-27.3621374,-55.90087459999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.pristina",
+    "city": "Prishtina",
+    "state": "",
+    "country": "",
+    "coordinates": "42.6629138,21.1655028",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Rio.Gallegos",
+    "city": "Rio Gallegos",
+    "state": "Santa Cruz Province",
+    "country": "Argentina",
+    "coordinates": "-51.6230485,-69.2168291",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.sancristobal",
+    "city": "San Cristobal de las Casas",
+    "state": "Chiapas",
+    "country": "Mexico",
+    "coordinates": "16.7370359,-92.6376186",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Tainan",
+    "city": "",
+    "state": "Tainan City",
+    "country": "Taiwan",
+    "coordinates": "22.9997281,120.2270277",
+    "photoUrl": ""
   }
 ]
