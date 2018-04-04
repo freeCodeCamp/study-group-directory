@@ -14782,5 +14782,53 @@
     "country": "Taiwan",
     "coordinates": "22.9997281,120.2270277",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/Free.Code.Camp.Taiz",
+    "city": "Taizz",
+    "state": "Taizz Governorate",
+    "country": "Yemen",
+    "coordinates": "13.5775886,44.0177989",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.thika",
+    "city": "Thika",
+    "state": "Kiambu County",
+    "country": "Kenya",
+    "coordinates": "-1.0387569,37.0833753",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.troy.ny",
+    "city": "Troy",
+    "state": "New York",
+    "country": "United States",
+    "coordinates": "42.7284117,-73.69178509999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.vejle",
+    "city": "Vejle",
+    "state": "",
+    "country": "Denmark",
+    "coordinates": "55.7113112,9.536354",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.wijkbijduurstede",
+    "city": "Wijk bij Duurstede",
+    "state": "Utrecht",
+    "country": "Netherlands",
+    "coordinates": "51.9756003,5.338449499999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.zagazig",
+    "city": "Zagazig",
+    "state": "Ash Sharqia Governorate",
+    "country": "Egypt",
+    "coordinates": "30.5765383,31.5040656",
+    "photoUrl": ""
   }
 ]
