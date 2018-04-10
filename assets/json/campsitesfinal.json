@@ -14830,5 +14830,53 @@
     "country": "Egypt",
     "coordinates": "30.5765383,31.5040656",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.zunyi",
+    "city": "Zunyi",
+    "state": "Guizhou",
+    "country": "China",
+    "coordinates": "27.725654,106.927389",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.bathinda",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "country": "India",
+    "coordinates": "30.210994,74.9454745",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.californiaMD",
+    "city": "California",
+    "state": "Maryland",
+    "country": "United States",
+    "coordinates": "38.3004029,-76.5074542",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.grodno",
+    "city": "Grodno",
+    "state": "Hrodna Region",
+    "country": "Belarus",
+    "coordinates": "53.6693538,23.8131306",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kitwe",
+    "city": "Kitwe",
+    "state": "Copperbelt Province",
+    "country": "Zambia",
+    "coordinates": "-12.8231947,28.2175744",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kulsary",
+    "city": "Kulsary",
+    "state": "Atyrau Province",
+    "country": "Kazakhstan",
+    "coordinates": "46.9691061,54.00681909999999",
+    "photoUrl": ""
   }
 ]
