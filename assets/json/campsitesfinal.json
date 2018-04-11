@@ -14878,5 +14878,61 @@
     "country": "Kazakhstan",
     "coordinates": "46.9691061,54.00681909999999",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kuwait.city",
+    "city": "Kuwait City",
+    "state": "Al Asimah Governate",
+    "country": "Kuwait",
+    "coordinates": "29.375859,47.9774052",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.lafayette.indiana",
+    "city": "Lafayette",
+    "state": "Indiana",
+    "country": "United States",
+    "coordinates": "40.4167022,-86.87528689999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.little.elm",
+    "city": "Little Elm",
+    "state": "Texas",
+    "country": "United States",
+    "coordinates": "33.1626193,-96.9375051",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.manama",
+    "city": "Manama",
+    "state": "Capital Governorate",
+    "country": "Bahrain",
+    "coordinates": "26.2285161,50.5860497",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "coordinates": "31.7081655,76.9313675",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mannheim",
+    "city": "Mannheim",
+    "state": "Baden-Württemberg",
+    "country": "Germany",
+    "coordinates": "49.4874592,8.466039499999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mckinney",
+    "city": "McKinney",
+    "state": "Texas",
+    "country": "United States",
+    "coordinates": "33.1972465,-96.6397822",
+    "photoUrl": ""
   }
 ]
