@@ -14990,5 +14990,61 @@
     "country": "United States",
     "coordinates": "36.10560359999999,-95.8571138",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.jaaga",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "coordinates": "12.9657327,77.6000341",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.kyzyl",
+    "city": "Kyzyl",
+    "state": "Tuva",
+    "country": "Russia",
+    "coordinates": "51.7150832,94.4574804",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.leiden",
+    "city": "Leiden",
+    "state": "South Holland",
+    "country": "Netherlands",
+    "coordinates": "52.1601144,4.4970097",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.mcarthur.oh",
+    "city": "McArthur",
+    "state": "Ohio",
+    "country": "United States",
+    "coordinates": "39.2464596,-82.47848979999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.passiac.nj",
+    "city": "Passaic",
+    "state": "New Jersey",
+    "country": "United States",
+    "coordinates": "40.8567662,-74.1284764",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.potenza",
+    "city": "Potenza",
+    "state": "Basilicata",
+    "country": "Italy",
+    "coordinates": "40.6404067,15.8056041",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.sari",
+    "city": "Sari",
+    "state": "Mazandaran Province",
+    "country": "Iran",
+    "coordinates": "36.5658729,53.0586328",
+    "photoUrl": ""
   }
 ]
