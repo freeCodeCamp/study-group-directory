@@ -15046,5 +15046,13 @@
     "country": "Iran",
     "coordinates": "36.5658729,53.0586328",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.nsec",
+    "city": "NSEC, Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "coordinates": "22.476058,88.4147846",
+    "photoUrl": ""
   }
 ]
