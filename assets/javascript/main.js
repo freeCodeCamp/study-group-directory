@@ -63,7 +63,7 @@ var cityNames = [];
 $.getJSON('assets/json/campsitesfinal.json').then(function(data) {
     data.forEach(function(loc) {
       const coordString = loc.coordinates;
-      let values = coordString.split(" ");
+      let values = coordString.split(",");
 
       var lat = ConvertDMSToDD(parseFloat(values[0]));
       var lng = ConvertDMSToDD(parseFloat(values[1]));
