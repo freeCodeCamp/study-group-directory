@@ -15286,5 +15286,76 @@
     "country": "United States",
     "coordinates": "40.19475389999999,-92.5832496",
     "photoUrl": ""
+  },{
+    "url": "https://www.facebook.com/groups/free.code.camp.frankfort.illinois/",
+    "city": "Frankfort",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "41.4958665,-87.84866129999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.dodoma.tanzania/",
+    "city": "Dodoma",
+    "state": "Dodoma Region",
+    "country": "Tanzania",
+    "coordinates": "-6.162959000000001,35.7516069",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.lompoc/",
+    "city": "Lompoc",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "34.6391501,-120.4579409",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.aiea/",
+    "city": "Aiea",
+    "state": "Hawaii",
+    "country": "United States",
+    "coordinates": "21.386338,-157.9255357",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ensenada.mexico/",
+    "city": "Ensenada",
+    "state": "Baja California",
+    "country": "Mexico",
+    "coordinates": "31.8667427,-116.5963713",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.andalucia/",
+    "city": "",
+    "state": "Andalusia",
+    "country": "Spain",
+    "coordinates": "37.5442706,-4.7277528",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.effingham/",
+    "city": "Effingham",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "39.1200418,-88.5433829",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.kristinehamn/",
+    "city": "Kristinehamn",
+    "state": "Varmland County",
+    "country": "Sweden",
+    "coordinates": "59.3100677,14.1089193",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Illescas/",
+    "city": "Illescas",
+    "state": "Castile-La Mancha",
+    "country": "Spain",
+    "coordinates": "40.1262812,-3.8489895",
+    "photoUrl": ""
   }
 ]
