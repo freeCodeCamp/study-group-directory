@@ -15358,5 +15358,101 @@
     "country": "Spain",
     "coordinates": "40.1262812,-3.8489895",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.baltimore.city/",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "country": "United States",
+    "coordinates": "39.2903848,-76.6121893",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.le.puy.en.velay",
+    "city": "Le Puy",
+    "state": "Auvergne-Rhône-Alpes",
+    "country": "France",
+    "coordinates": "45.042768,3.882936",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.miaoli/",
+    "city": "",
+    "state": "Miaoli County",
+    "country": "Taiwan",
+    "coordinates": "24.560159,120.8214265",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.san.cristobal.tachira",
+    "city": "San Cristobal",
+    "state": "Táchira",
+    "country": "Venezuela",
+    "coordinates": "7.771357200000001,-72.22614659999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.rawlins.wyoming/",
+    "city": "Rawlins",
+    "state": "Wyoming",
+    "country": "United States",
+    "coordinates": "41.7910697,-107.2386627",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.ibadan.Nigeria/",
+    "city": "Ibadan",
+    "state": "Oyo",
+    "country": "Nigeria",
+    "coordinates": "7.3775355,3.9470396",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.tuguegarao.city/",
+    "city": "Tuguegarao City",
+    "state": "Cagayan Valley",
+    "country": "Philippines",
+    "coordinates": "17.6131813,121.7270206",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.ourinhos/",
+    "city": "Ourinhos",
+    "state": "State of São Paulo",
+    "country": "Brazil",
+    "coordinates": "-22.9493713,-49.87520689999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.parit.raja/",
+    "city": "Parit Raja",
+    "state": "Johor",
+    "country": "Malaysia",
+    "coordinates": "1.863472,103.1088661",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.migdal.haemek/",
+    "city": "Migdal HaEmek",
+    "state": "North District",
+    "country": "Israel",
+    "coordinates": "32.6778114,35.2417497",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freeCodeCamp.Fadeyi/",
+    "city": "Fadeyi",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "coordinates": "6.528482899999999,3.3628242",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.gaya/",
+    "city": "Gaya",
+    "state": "Bihar",
+    "country": "India",
+    "coordinates": "24.7913957,85.0002336",
+    "photoUrl": ""
   }
 ]
