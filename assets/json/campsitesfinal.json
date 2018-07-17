@@ -15456,11 +15456,19 @@
     "photoUrl": ""
   },
   {
-    "url": "https://gitter.im/freeCodeCampShiraz",
+    "url": "https://gitter.im/freeCodeCampShiraz/",
     "city": "Shiraz",
     "state": "Fars Province",
     "country": "Iran",
     "coordinates": "29.615676, 52.547660",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.bgm/",
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "country": "India",
+    "coordinates": "15.864675, 74.510584",
     "photoUrl": ""
   }
 ]
