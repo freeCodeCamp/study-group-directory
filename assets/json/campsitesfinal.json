@@ -15478,5 +15478,13 @@
     "country": "Indonesia",
     "coordinates": "-2.972795, 104.759185",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.la.rioja/",
+    "city": "La Rioja",
+    "state": "La Rioja Province",
+    "country": "Argentina",
+    "coordinates": "-29.417881, -66.852688",
+    "photoUrl": ""
   }
 ]
