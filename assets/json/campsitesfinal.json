@@ -15454,5 +15454,13 @@
     "country": "India",
     "coordinates": "24.7913957,85.0002336",
     "photoUrl": ""
+  },
+  {
+    "url": "https://gitter.im/freeCodeCampShiraz",
+    "city": "Shiraz",
+    "state": "Fars Province",
+    "country": "Iran",
+    "coordinates": "29.615676, 52.547660",
+    "photoUrl": ""
   }
 ]
