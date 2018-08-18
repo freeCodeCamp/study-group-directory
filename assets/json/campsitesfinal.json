@@ -8567,7 +8567,7 @@
     "coordinates": "-26.173611, 27.694167",
     "photoUrl": ""
   },
-    {
+  {
     "url": "https://www.facebook.com/groups/free.code.camp.secunda",
     "city": "Secunda",
     "state": "",
@@ -15493,6 +15493,38 @@
     "state": "Louisiana",
     "country": "United States",
     "coordinates": "32.523300, -93.709434",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.HITK/",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "coordinates": "22.517282,88.4186638",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.the.dalles/",
+    "city": "The Dalles",
+    "state": "Oregon",
+    "country": "United States",
+    "coordinates": "45.5945645,-121.1786823",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.magway",
+    "city": "Magway",
+    "state": "Magway Region",
+    "country": "Myanmar (Burma)",
+    "coordinates": "20.4619152,94.5624426",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.genova/",
+    "city": "Genova",
+    "state": "Liguria",
+    "country": "Italy",
+    "coordinates": "44.405600, 8.946300",
     "photoUrl": ""
   }
 ]
