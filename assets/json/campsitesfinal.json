@@ -1748,7 +1748,7 @@
     "city": "Bridgewater",
     "state": "Nova Scotia",
     "country": "Canada",
-    "coordinates": "41.990379, -70.975043",
+    "coordinates": "44.372027, -64.520771",
     "photoUrl": ""
   },
   {
@@ -1836,7 +1836,7 @@
     "city": "Milton",
     "state": "Ontario",
     "country": "Canada",
-    "coordinates": "42.249544, -71.066161",
+    "coordinates": "43.516663, -79.879400",
     "photoUrl": ""
   },
   {
@@ -2288,7 +2288,7 @@
     "photoUrl": ""
   },
   {
-    "url": "https://facebook.com/groups/free.code.camp.wuxi",
+    "url": "https://www.facebook.com/groups/free.code.camp.wuxi",
     "city": "Wuxi",
     "state": "",
     "country": "China",
@@ -2424,7 +2424,7 @@
     "photoUrl": ""
   },
   {
-    "url": "www.facebook.com/groups/free.code.camp.kano.kanawa",
+    "url": "https://www.facebook.com/groups/free.code.camp.kano.kanawa",
     "city": "Kano",
     "state": "",
     "country": "Congo",
@@ -2957,7 +2957,7 @@
     "state": "",
     "country": "England",
     "coordinates": "50.770600, 0.281761",
-    "photoUrl": "http://imgur.com/6QE55Uk"
+    "photoUrl": "https://scontent.flhr4-1.fna.fbcdn.net/v/t31.0-8/20690184_1529839170407274_113455149101498123_o.jpg?oh=d7135072bdc884368fcc67765ce1785b&oe=5A6FB359"
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.exeter.uk",
@@ -4112,11 +4112,11 @@
     "photoUrl": ""
   },
   {
-    "url": "https://www.facebook.com/groups/free.code.camp.gyor.hu",
-    "city": "Győr (Archived)",
+    "url": "https://www.facebook.com/groups/free.code.camp.gyor",
+    "city": "Győr",
     "state": "",
     "country": "Hungary",
-    "coordinates": "39.78373, -100.445882",
+    "coordinates": "47.685360, 17.650443",
     "photoUrl": ""
   },
   {
@@ -4232,14 +4232,6 @@
     "photoUrl": ""
   },
   {
-    "url": "https://www.facebook.com/groups/free.code.camp.itanagar.arunachalpradesh",
-    "city": "Itanagar",
-    "state": "Arunachal Pradesh",
-    "country": "India",
-    "coordinates": "27.101979, 93.629198",
-    "photoUrl": ""
-  },
-  {
     "url": "https://www.facebook.com/groups/free.code.camp.guwahati",
     "city": "Guwahati",
     "state": "Assam",
@@ -4272,7 +4264,7 @@
     "photoUrl": ""
   },
   {
-    "url": "http://www.facebook.com/groups/free.code.camp.patna",
+    "url": "https://www.facebook.com/groups/free.code.camp.patna",
     "city": "Patna",
     "state": "Bihar",
     "country": "India",
@@ -4385,10 +4377,10 @@
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.goa",
-    "city": "Goa",
-    "state": "Gujarat",
+    "city": "",
+    "state": "Goa",
     "country": "India",
-    "coordinates": "13.699834, 123.489944",
+    "coordinates": "15.2832, 73.9862",
     "photoUrl": ""
   },
   {
@@ -4812,7 +4804,7 @@
     "city": "Salem",
     "state": "Tamil Nadu",
     "country": "India",
-    "coordinates": "44.939157, -123.033121",
+    "coordinates": "11.658056,78.156389",
     "photoUrl": ""
   },
   {
@@ -5944,6 +5936,14 @@
     "photoUrl": ""
   },
   {
+    "url": "https://www.facebook.com/groups/free.code.camp.bangi",
+    "city": "Bangi",
+    "state": "",
+    "country": "Malaysia",
+    "coordinates": "2.962646, 101.757905",
+    "photoUrl": ""
+  },
+  {
     "url": "https://www.facebook.com/groups/free.code.camp.taiping",
     "city": "Taiping",
     "state": "",
@@ -6896,7 +6896,7 @@
     "photoUrl": ""
   },
   {
-    "url": "https://web.facebook.com/groups/free.code.camp.ondo",
+    "url": "https://www.facebook.com/groups/free.code.camp.ondo",
     "city": "Ondo",
     "state": "",
     "country": "Nigeria",
@@ -7061,14 +7061,6 @@
     "state": "",
     "country": "Oman",
     "coordinates": "24.344558, 56.742477",
-    "photoUrl": ""
-  },
-  {
-    "url": "https://www.facebook.com/groups/free.code.camp.attock",
-    "city": "Pakistan",
-    "state": "",
-    "country": "Pakistan",
-    "coordinates": "25.189274, 64.605377",
     "photoUrl": ""
   },
   {
@@ -7437,7 +7429,7 @@
     "state": "",
     "country": "Philippines",
     "coordinates": "14.590622, 120.97997",
-    "photoUrl": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/16113216_10208153688820580_1043581039883651228_o.jpg?oh=f5dcf2be320488e233d631b25cfc58b9&oe=5954DD7D"
+    "photoUrl": "https://scontent.fmnl13-1.fna.fbcdn.net/v/t1.0-9/18199241_10210563063370531_9192704129359910881_n.jpg?oh=3faa7624840fd8c35c338cf7faa46e9f&oe=5A7E72D9"
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.mati",
@@ -8312,11 +8304,11 @@
     "photoUrl": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/12593659_10154540589563761_9135395108654678052_o.jpg?oh=418373b25bd29e86e913996bf2a0d50f&oe=5960BC04"
   },
   {
-    "url": "https://www.facebook.com/groups/free.code.camp.aberdeenshire",
-    "city": "Aberdeenshire",
+    "url": "https://www.facebook.com/groups/aberdeenfreecodecamp",
+    "city": "Aberdeen",
     "state": "",
     "country": "Scotland",
-    "coordinates": "57.683686, -2.010464",
+    "coordinates": "57.144345, -2.096021",
     "photoUrl": ""
   },
   {
@@ -8332,7 +8324,7 @@
     "city": "Edinburgh",
     "state": "",
     "country": "Scotland",
-    "coordinates": "39.354218, -85.966658",
+    "coordinates": "55.946458, -3.205901",
     "photoUrl": ""
   },
   {
@@ -8340,7 +8332,7 @@
     "city": "Glasgow",
     "state": "",
     "country": "Scotland",
-    "coordinates": "36.995884, -85.911921",
+    "coordinates": "55.866265, -4.250308",
     "photoUrl": ""
   },
   {
@@ -8576,6 +8568,14 @@
     "photoUrl": ""
   },
   {
+    "url": "https://www.facebook.com/groups/free.code.camp.secunda",
+    "city": "Secunda",
+    "state": "",
+    "country": "South Africa",
+    "coordinates": "-26.509696, 29.185567",
+    "photoUrl": ""
+  },
+  {
     "url": "https://www.facebook.com/groups/free.code.camp.south.borneo",
     "city": "Banjarmasin",
     "state": "",
@@ -8650,10 +8650,10 @@
   {
     "url": "https://www.facebook.com/groups/free.code.camp.suwon",
     "city": "Suwon",
-    "state": "",
+    "state": "Gyeonggi-do",
     "country": "South Korea",
     "coordinates": "33.429441, 126.267859",
-    "photoUrl": ""
+    "photoUrl": "https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/27336804_1772058879494380_8578724638051911418_n.jpg?oh=c879cf78683b5d49093922ed9007b452&oe=5AE6EE5F"
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.a.coruna",
@@ -10108,7 +10108,7 @@
     "city": "Lake Forest",
     "state": "California",
     "country": "United States",
-    "coordinates": "42.258634, -87.840625",
+    "coordinates": "33.645093, -117.686496",
     "photoUrl": ""
   },
   {
@@ -10536,7 +10536,7 @@
     "photoUrl": ""
   },
   {
-    "url": "http://www.facebook.com/groups/Free.Code.Camp.Yreka",
+    "url": "https://www.facebook.com/groups/Free.Code.Camp.Yreka",
     "city": "Yreka",
     "state": "California",
     "country": "United States",
@@ -11612,7 +11612,7 @@
     "city": "Portland",
     "state": "Maine",
     "country": "United States",
-    "coordinates": "45.520247, -122.674195",
+    "coordinates": "43.678611,-70.288333",
     "photoUrl": ""
   },
   {
@@ -11796,7 +11796,7 @@
     "city": "Worcester",
     "state": "Massachusetts",
     "country": "United States",
-    "coordinates": "52.191829, -2.221601",
+    "coordinates": "42.2755407, -71.8777779",
     "photoUrl": ""
   },
   {
@@ -12237,6 +12237,14 @@
     "state": "Nevada",
     "country": "United States",
     "coordinates": "39.52927, -119.813674",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.concord/",
+    "city": "Concord",
+    "state": "New Hampshire",
+    "country": "United States",
+    "coordinates": "43.2081, -71.5376",
     "photoUrl": ""
   },
   {
@@ -13384,7 +13392,7 @@
     "photoUrl": ""
   },
   {
-    "url": "https://www.facebook.com/groups/free.code.camp.houston",
+    "url": "http://www.freecodecamphouston.com",
     "city": "Houston",
     "state": "Texas",
     "country": "United States",
@@ -13972,7 +13980,7 @@
     "city": "Wheeling",
     "state": "West Virginia",
     "country": "United States",
-    "coordinates": "42.125144, -87.929305",
+    "coordinates": "40.063079, -80.721035",
     "photoUrl": ""
   },
   {
@@ -14249,7 +14257,7 @@
   },
   {
     "url": "https://www.facebook.com/groups/free.code.camp.hochiminhcity",
-    "city": "Ho Chi Minh City",
+    "city": "Ho Chi Minh City (Saigon)",
     "state": "",
     "country": "Vietnam",
     "coordinates": "39.78373, -100.445882",
@@ -14374,5 +14382,1165 @@
     "country": "Zimbabwe",
     "coordinates": "-16.774303, 31.582812",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.nkongsamba/",
+    "city": "Nkongsamba",
+    "state": "",
+    "country": "Cameroon",
+    "coordinates": "4.964145, 9.935545",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/FreeCodeCampBolingbrook/",
+    "city": "Bolingbrook",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "41.69864159999999,-88.0683955",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/1815475105368892/",
+    "city": "Port Elizabeth",
+    "state": "Eastern Cape",
+    "country": "South Africa",
+    "coordinates": "-33.7139247,25.5207358",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/192678931224550/",
+    "city": "Juba",
+    "state": "Central Equatoria",
+    "country": "South Sudan",
+    "coordinates": "4.859363,31.57125",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/232859233858447/",
+    "city": "Pekanbaru",
+    "state": "Riau",
+    "country": "Indonesia",
+    "coordinates": "0.5070677,101.4477793",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/341554859527680/",
+    "city": "Auburn",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "38.8965654,-121.0768901",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/694045167470740/",
+    "city": "Osnabrück",
+    "state": "Lower Saxony",
+    "country": "Germany",
+    "coordinates": "52.2799112,8.0471788",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/751697595012319/",
+    "city": "Union",
+    "state": "New Jersey",
+    "country": "United States",
+    "coordinates": "40.6975898,-74.26316349999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.camp.code.claremont/",
+    "city": "Claremont",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "34.0966764,-117.7197785",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.group.quixada/",
+    "city": "Quixada",
+    "state": "State of Ceará",
+    "country": "Brazil",
+    "coordinates": "-4.9685795,-39.0162466",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/FreeCode.Camo.Faisalabad/",
+    "city": "Faisalabad",
+    "state": "Punjab",
+    "country": "Pakistan",
+    "coordinates": "31.45036619999999,73.13496049999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/saskatoon.free.code.camp/",
+    "city": "Saskatoon",
+    "state": "Saskatchewan",
+    "country": "Canada",
+    "coordinates": "52.1332144,-106.6700458",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/nakuru.free.code.camp/",
+    "city": "Nakuru",
+    "state": "Nakuru County",
+    "country": "Kenya",
+    "coordinates": "-0.3030988,36.080026",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freeCodeCampAmbala/",
+    "city": "Ambala",
+    "state": "Haryana",
+    "country": "India",
+    "coordinates": "30.3781788,76.7766974",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Almaty",
+    "city": "Almaty",
+    "state": "Almaty Province",
+    "country": "Kazakhstan",
+    "coordinates": "43.2220146,76.8512485",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.annaba",
+    "city": "Annaba",
+    "state": "Annaba Province",
+    "country": "Algeria",
+    "coordinates": "36.9264582,7.752535200000001",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.astana",
+    "city": "Astana",
+    "state": "",
+    "country": "Kazakhstan",
+    "coordinates": "51.16052269999999,71.4703558",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bayamon.pr",
+    "city": "Bayamón",
+    "state": "",
+    "country": "Puerto Rico",
+    "coordinates": "18.389396,-66.1653224",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.beloit",
+    "city": "Beloit",
+    "state": "Wisconsin",
+    "country": "United States",
+    "coordinates": "42.5083482,-89.03177649999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bienhoacity",
+    "city": "Bien Hoa",
+    "state": "Dong Nai",
+    "country": "Vietnam",
+    "coordinates": "10.9574128,106.8426871",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.birgunj",
+    "city": "Birgunj",
+    "state": "Central Development Region",
+    "country": "Nepal",
+    "coordinates": "27.0449005,84.86721709999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.onitsha.ng",
+    "city": "Onitsha",
+    "state": "Anambra",
+    "country": "Nigeria",
+    "coordinates": "6.1329419,6.7923994",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.orangeburgsc",
+    "city": "Orangeburg",
+    "state": "South Carolina",
+    "country": "United States",
+    "coordinates": "33.4918203,-80.8556476",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.paisley",
+    "city": "Paisley",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "coordinates": "55.847258,-4.440113999999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.paynesville",
+    "city": "Paynesville",
+    "state": "Monrovia",
+    "country": "Liberia",
+    "coordinates": "6.268674, -10.708537",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.pescara",
+    "city": "Rochester",
+    "state": "Minnesota",
+    "country": "United States",
+    "coordinates": "44.021987,-92.462571",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bishkek",
+    "city": "Bishkek",
+    "state": "Chuy Province",
+    "country": "Kyrgyzstan",
+    "coordinates": "42.8746212,74.5697617",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bulawayo",
+    "city": "Bulawayo",
+    "state": "Bulawayo Province",
+    "country": "Zimbabwe",
+    "coordinates": "-20.1325066,28.626479",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.carrollton.il",
+    "city": "Carrollton",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "39.3022693,-90.4070632",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.chico",
+    "city": "Chico",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "39.729575,-121.8473287",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.cookeville.tennessee",
+    "city": "Cookeville",
+    "state": "Tennessee",
+    "country": "United States",
+    "coordinates": "36.162839,-85.5016423",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.cumana",
+    "city": "Cumana",
+    "state": "Sucre",
+    "country": "Venezuela",
+    "coordinates": "10.431916,-64.18331599999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.dala",
+    "city": "Dale",
+    "state": "Indiana",
+    "country": "United States",
+    "coordinates": "38.1689415,-86.98999660000001",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.darlington.pa",
+    "city": "Darlington",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "coordinates": "40.8097107,-80.4244418",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.east.boston",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "country": "United States",
+    "coordinates": "42.37021370000001,-71.0388601",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.eldoret",
+    "city": "Eldoret",
+    "state": "Uasin Gishu County",
+    "country": "Kenya",
+    "coordinates": "0.5142774999999999,35.2697802",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.enugucity",
+    "city": "Enugu",
+    "state": "Enugu",
+    "country": "Nigeria",
+    "coordinates": "6.4583661,7.5463885",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.fayettevile.ga",
+    "city": "Fayetteville",
+    "state": "Georgia",
+    "country": "United States",
+    "coordinates": "33.4487257,-84.4549262",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ferizaj",
+    "city": "Uroshevac",
+    "state": "",
+    "country": "",
+    "coordinates": "42.3701844,21.1483281",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.fuenlabrada",
+    "city": "Fuenlabrada",
+    "state": "Community of Madrid",
+    "country": "Spain",
+    "coordinates": "40.2902056,-3.8035477",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.jundiai.sp.br",
+    "city": "Jundiaí",
+    "state": "State of São Paulo",
+    "country": "Brazil",
+    "coordinates": "-23.1857076,-46.8978057",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Kangundo",
+    "city": "Kangundo",
+    "state": "Machakos County",
+    "country": "Kenya",
+    "coordinates": "-1.3055671,37.3453215",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kedah",
+    "city": "",
+    "state": "Kedah",
+    "country": "Malaysia",
+    "coordinates": "6.1183964,100.3684595",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.khanpur",
+    "city": "Khanpur",
+    "state": "Punjab",
+    "country": "Pakistan",
+    "coordinates": "28.6331825,70.6573694",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Kisumu",
+    "city": "Kisumu",
+    "state": "Kisumu County",
+    "country": "Kenya",
+    "coordinates": "-0.0917016,34.7679568",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.pordenone",
+    "city": "",
+    "state": "Friuli-Venezia Giulia",
+    "country": "Italy",
+    "coordinates": "45.9563684,12.661452",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.posadas",
+    "city": "Posadas",
+    "state": "Misiones Province",
+    "country": "Argentina",
+    "coordinates": "-27.3621374,-55.90087459999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.pristina",
+    "city": "Prishtina",
+    "state": "",
+    "country": "",
+    "coordinates": "42.6629138,21.1655028",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Rio.Gallegos",
+    "city": "Rio Gallegos",
+    "state": "Santa Cruz Province",
+    "country": "Argentina",
+    "coordinates": "-51.6230485,-69.2168291",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.sancristobal",
+    "city": "San Cristobal de las Casas",
+    "state": "Chiapas",
+    "country": "Mexico",
+    "coordinates": "16.7370359,-92.6376186",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Tainan",
+    "city": "",
+    "state": "Tainan City",
+    "country": "Taiwan",
+    "coordinates": "22.9997281,120.2270277",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/Free.Code.Camp.Taiz",
+    "city": "Taizz",
+    "state": "Taizz Governorate",
+    "country": "Yemen",
+    "coordinates": "13.5775886,44.0177989",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.thika",
+    "city": "Thika",
+    "state": "Kiambu County",
+    "country": "Kenya",
+    "coordinates": "-1.0387569,37.0833753",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.troy.ny",
+    "city": "Troy",
+    "state": "New York",
+    "country": "United States",
+    "coordinates": "42.7284117,-73.69178509999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.vejle",
+    "city": "Vejle",
+    "state": "",
+    "country": "Denmark",
+    "coordinates": "55.7113112,9.536354",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.wijkbijduurstede",
+    "city": "Wijk bij Duurstede",
+    "state": "Utrecht",
+    "country": "Netherlands",
+    "coordinates": "51.9756003,5.338449499999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.zagazig",
+    "city": "Zagazig",
+    "state": "Ash Sharqia Governorate",
+    "country": "Egypt",
+    "coordinates": "30.5765383,31.5040656",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.zunyi",
+    "city": "Zunyi",
+    "state": "Guizhou",
+    "country": "China",
+    "coordinates": "27.725654,106.927389",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.bathinda",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "country": "India",
+    "coordinates": "30.210994,74.9454745",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.californiaMD",
+    "city": "California",
+    "state": "Maryland",
+    "country": "United States",
+    "coordinates": "38.3004029,-76.5074542",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.grodno",
+    "city": "Grodno",
+    "state": "Hrodna Region",
+    "country": "Belarus",
+    "coordinates": "53.6693538,23.8131306",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kitwe",
+    "city": "Kitwe",
+    "state": "Copperbelt Province",
+    "country": "Zambia",
+    "coordinates": "-12.8231947,28.2175744",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kulsary",
+    "city": "Kulsary",
+    "state": "Atyrau Province",
+    "country": "Kazakhstan",
+    "coordinates": "46.9691061,54.00681909999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kuwait.city",
+    "city": "Kuwait City",
+    "state": "Al Asimah Governate",
+    "country": "Kuwait",
+    "coordinates": "29.375859,47.9774052",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.lafayette.indiana",
+    "city": "Lafayette",
+    "state": "Indiana",
+    "country": "United States",
+    "coordinates": "40.4167022,-86.87528689999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.little.elm",
+    "city": "Little Elm",
+    "state": "Texas",
+    "country": "United States",
+    "coordinates": "33.1626193,-96.9375051",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.manama",
+    "city": "Manama",
+    "state": "Capital Governorate",
+    "country": "Bahrain",
+    "coordinates": "26.2285161,50.5860497",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mandi",
+    "city": "Mandi",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "coordinates": "31.7081655,76.9313675",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mannheim",
+    "city": "Mannheim",
+    "state": "Baden-Württemberg",
+    "country": "Germany",
+    "coordinates": "49.4874592,8.466039499999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mckinney",
+    "city": "McKinney",
+    "state": "Texas",
+    "country": "United States",
+    "coordinates": "33.1972465,-96.6397822",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.mombasa",
+    "city": "Mombasa",
+    "state": "Mombasa County",
+    "country": "Kenya",
+    "coordinates": "-4.0434771,39.6682065",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/Free.Code.Camp.Monclova",
+    "city": "Monclova",
+    "state": "Coahuila",
+    "country": "Mexico",
+    "coordinates": "26.9080378,-101.4215236",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.neemrana.nu",
+    "city": "Neemrana",
+    "state": "Rajasthan",
+    "country": "India",
+    "coordinates": "27.9628657,76.40318810000001",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.nouakchott.mr",
+    "city": "Nouakchott",
+    "state": "Nouakchott",
+    "country": "Mauritania",
+    "coordinates": "18.0735299,-15.9582372",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.nusajaya.malaysia/",
+    "city": "Nusajaya",
+    "state": "Johor",
+    "country": "Malaysia",
+    "coordinates": "1.4200356,103.6304834",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.guelph",
+    "city": "Guelph",
+    "state": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.5448048,-80.24816659999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.iglesias",
+    "city": "Tulsa",
+    "state": "Oklahoma",
+    "country": "United States",
+    "coordinates": "36.10560359999999,-95.8571138",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.jaaga",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "coordinates": "12.9657327,77.6000341",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.kyzyl",
+    "city": "Kyzyl",
+    "state": "Tuva",
+    "country": "Russia",
+    "coordinates": "51.7150832,94.4574804",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.leiden",
+    "city": "Leiden",
+    "state": "South Holland",
+    "country": "Netherlands",
+    "coordinates": "52.1601144,4.4970097",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.mcarthur.oh",
+    "city": "McArthur",
+    "state": "Ohio",
+    "country": "United States",
+    "coordinates": "39.2464596,-82.47848979999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.passiac.nj",
+    "city": "Passaic",
+    "state": "New Jersey",
+    "country": "United States",
+    "coordinates": "40.8567662,-74.1284764",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.potenza",
+    "city": "Potenza",
+    "state": "Basilicata",
+    "country": "Italy",
+    "coordinates": "40.6404067,15.8056041",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.sari",
+    "city": "Sari",
+    "state": "Mazandaran Province",
+    "country": "Iran",
+    "coordinates": "36.5658729,53.0586328",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.nsec",
+    "city": "NSEC, Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "coordinates": "22.476058,88.4147846",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kurnool",
+    "city": "Kurnool",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "coordinates": "15.8281,78.0373",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.thunder.bay/",
+    "city": "Thunder Bay",
+    "state": "Ontario",
+    "country": "Canada",
+    "coordinates": "48.3808951,-89.2476823",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.akola/",
+    "city": "Akola",
+    "state": "Maharashtra",
+    "country": "India",
+    "coordinates": "20.7002159,77.0081678",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.abia.state/",
+    "city": "",
+    "state": "Abia",
+    "country": "Nigeria",
+    "coordinates": "5.430892099999999,7.524724300000001",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ghaziabad.india/",
+    "city": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "coordinates": "28.6691565,77.45375779999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.Code.Camp.Kostroma.City/",
+    "city": "Kostroma",
+    "state": "Kostroma Oblast",
+    "country": "Russia",
+    "coordinates": "57.77748159999999,40.9698928",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ede.nl/",
+    "city": "Ede",
+    "state": "Gelderland",
+    "country": "Netherlands",
+    "coordinates": "52.0401675,5.6648594",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.forres/",
+    "city": "Forres",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "coordinates": "57.60979099999999,-3.61998",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.monmouth/",
+    "city": "West Long Branch",
+    "state": "New Jersey",
+    "country": "United States",
+    "coordinates": "40.2804557,-74.0058114",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.tirunelveli",
+    "city": "Tirunelveli",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "coordinates": "8.713912600000002,77.7566523",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.canthocity/",
+    "city": "",
+    "state": "Cần Thơ",
+    "country": "Vietnam",
+    "coordinates": "10.0495716,105.7853052",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.sirvintos/",
+    "city": "Širvintos",
+    "state": "Vilnius County",
+    "country": "Lithuania",
+    "coordinates": "55.043102,24.956981",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.tetouan/",
+    "city": "Tetouan",
+    "state": "Tangier-Tétouan-Al Hoceima",
+    "country": "Morocco",
+    "coordinates": "35.5888995,-5.3625516",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ebonyi/",
+    "city": "",
+    "state": "Ebonyi",
+    "country": "Nigeria",
+    "coordinates": "6.177973,7.959286299999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.cuauhtemoc.chihuahua/",
+    "city": "Ciudad Cuauhtemoc",
+    "state": "Chihuahua",
+    "country": "Mexico",
+    "coordinates": "28.406359,-106.8654066",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.merced.ca/",
+    "city": "Merced",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "37.3021632,-120.4829677",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.maple.shade/",
+    "city": "Maple Shade Township",
+    "state": "New Jersey",
+    "country": "United States",
+    "coordinates": "39.9526127,-74.9923915",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.patate.ecuador/",
+    "city": "Patate",
+    "state": "Tungurahua",
+    "country": "Ecuador",
+    "coordinates": "-1.3128375,-78.50644729999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.waynesboroga/",
+    "city": "Waynesboro",
+    "state": "Georgia",
+    "country": "United States",
+    "coordinates": "33.0898731,-82.0156736",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.bauchi.nigeria/",
+    "city": "Bauchi",
+    "state": "Bauchi",
+    "country": "Nigeria",
+    "coordinates": "10.3009641,9.8236533",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.el.campo.tx/",
+    "city": "El Campo",
+    "state": "Texas",
+    "country": "United States",
+    "coordinates": "29.19664049999999,-96.2696867",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.oujda.morocco/",
+    "city": "Oujda",
+    "state": "Oriental",
+    "country": "Morocco",
+    "coordinates": "34.681962,-1.900155",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.laurens.sc/",
+    "city": "Laurens",
+    "state": "South Carolina",
+    "country": "United States",
+    "coordinates": "34.4990116,-82.0142597",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.norman/",
+    "city": "Norman",
+    "state": "Oklahoma",
+    "country": "United States",
+    "coordinates": "35.2225668,-97.4394777",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.udon.thani/",
+    "city": "Udon Thani",
+    "state": "Udon Thani",
+    "country": "Thailand",
+    "coordinates": "17.3646969,102.8158924",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.portimao/",
+    "city": "Portimão",
+    "state": "Faro District",
+    "country": "Portugal",
+    "coordinates": "37.13617,-8.5376926",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.fullerton.city/",
+    "city": "Fullerton",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "33.8703645,-117.9242123",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.kirksville/",
+    "city": "Kirksville",
+    "state": "Missouri",
+    "country": "United States",
+    "coordinates": "40.19475389999999,-92.5832496",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.frankfort.illinois/",
+    "city": "Frankfort",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "41.4958665,-87.84866129999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.dodoma.tanzania/",
+    "city": "Dodoma",
+    "state": "Dodoma Region",
+    "country": "Tanzania",
+    "coordinates": "-6.162959000000001,35.7516069",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.lompoc/",
+    "city": "Lompoc",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "34.6391501,-120.4579409",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.aiea/",
+    "city": "Aiea",
+    "state": "Hawaii",
+    "country": "United States",
+    "coordinates": "21.386338,-157.9255357",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ensenada.mexico/",
+    "city": "Ensenada",
+    "state": "Baja California",
+    "country": "Mexico",
+    "coordinates": "31.8667427,-116.5963713",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.andalucia/",
+    "city": "",
+    "state": "Andalusia",
+    "country": "Spain",
+    "coordinates": "37.5442706,-4.7277528",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.effingham/",
+    "city": "Effingham",
+    "state": "Illinois",
+    "country": "United States",
+    "coordinates": "39.1200418,-88.5433829",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.kristinehamn/",
+    "city": "Kristinehamn",
+    "state": "Varmland County",
+    "country": "Sweden",
+    "coordinates": "59.3100677,14.1089193",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.Illescas/",
+    "city": "Illescas",
+    "state": "Castile-La Mancha",
+    "country": "Spain",
+    "coordinates": "40.1262812,-3.8489895",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.baltimore.city/",
+    "city": "Baltimore City",
+    "state": "Maryland",
+    "country": "United States",
+    "coordinates": "39.2903848,-76.6121893",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.le.puy.en.velay",
+    "city": "Le Puy",
+    "state": "Auvergne-Rhône-Alpes",
+    "country": "France",
+    "coordinates": "45.042768,3.882936",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.miaoli/",
+    "city": "",
+    "state": "Miaoli County",
+    "country": "Taiwan",
+    "coordinates": "24.560159,120.8214265",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.san.cristobal.tachira",
+    "city": "San Cristobal",
+    "state": "Táchira",
+    "country": "Venezuela",
+    "coordinates": "7.771357200000001,-72.22614659999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.rawlins.wyoming/",
+    "city": "Rawlins",
+    "state": "Wyoming",
+    "country": "United States",
+    "coordinates": "41.7910697,-107.2386627",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.ibadan.Nigeria/",
+    "city": "Ibadan",
+    "state": "Oyo",
+    "country": "Nigeria",
+    "coordinates": "7.3775355,3.9470396",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.tuguegarao.city/",
+    "city": "Tuguegarao City",
+    "state": "Cagayan Valley",
+    "country": "Philippines",
+    "coordinates": "17.6131813,121.7270206",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.ourinhos/",
+    "city": "Ourinhos",
+    "state": "State of São Paulo",
+    "country": "Brazil",
+    "coordinates": "-22.9493713,-49.87520689999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.parit.raja/",
+    "city": "Parit Raja",
+    "state": "Johor",
+    "country": "Malaysia",
+    "coordinates": "1.863472,103.1088661",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.migdal.haemek/",
+    "city": "Migdal HaEmek",
+    "state": "North District",
+    "country": "Israel",
+    "coordinates": "32.6778114,35.2417497",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freeCodeCamp.Fadeyi/",
+    "city": "Fadeyi",
+    "state": "Lagos",
+    "country": "Nigeria",
+    "coordinates": "6.528482899999999,3.3628242",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.gaya/",
+    "city": "Gaya",
+    "state": "Bihar",
+    "country": "India",
+    "coordinates": "24.7913957,85.0002336",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://gitter.im/freeCodeCampShiraz/",
+    "city": "Shiraz",
+    "state": "Fars Province",
+    "country": "Iran",
+    "coordinates": "29.615676, 52.547660",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.bgm/",
+    "city": "Belagavi",
+    "state": "Karnataka",
+    "country": "India",
+    "coordinates": "15.864675, 74.510584",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.palembangsumsel/",
+    "city": "Palembang",
+    "state": "South Sumatra",
+    "country": "Indonesia",
+    "coordinates": "-2.972795, 104.759185",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.la.rioja/",
+    "city": "La Rioja",
+    "state": "La Rioja Province",
+    "country": "Argentina",
+    "coordinates": "-29.417881, -66.852688",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/381135042380814/",
+    "city": "Bossier City",
+    "state": "Louisiana",
+    "country": "United States",
+    "coordinates": "32.523300, -93.709434",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.HITK/",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "coordinates": "22.517282,88.4186638",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.the.dalles/",
+    "city": "The Dalles",
+    "state": "Oregon",
+    "country": "United States",
+    "coordinates": "45.5945645,-121.1786823",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.magway",
+    "city": "Magway",
+    "state": "Magway Region",
+    "country": "Myanmar (Burma)",
+    "coordinates": "20.4619152,94.5624426",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.genova/",
+    "city": "Genova",
+    "state": "Liguria",
+    "country": "Italy",
+    "coordinates": "44.405600, 8.946300",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/fccoxnard/",
+    "city": "Oxnard",
+    "state": "California",
+    "country": "United States",
+    "coordinates": "34.195115, -119.176993",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.Code.Camp.CU.Kolkata/",
+    "city": "CU, Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "coordinates": "22.574943, 88.362892",
+    "photoUrl": "https://scontent.fccu1-1.fna.fbcdn.net/v/t1.0-9/40094927_726617307697940_7335538390466560000_o.jpg?_nc_cat=0&oh=7f7cca5f10d14206a0c34daf853af77d&oe=5C389A4A"
   }
 ]
