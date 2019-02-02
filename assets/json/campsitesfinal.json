@@ -15638,5 +15638,69 @@
     "country": "United States",
     "coordinates": "39.209782, -85.899962",
     "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.houma/",
+    "city": "Houma",
+    "state": "Louisiana",
+    "country": "United States",
+    "coordinates": "29.5957696,-90.71953479999999",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.ndola/",
+    "city": "Ndola",
+    "state": "Copperbelt Province",
+    "country": "Zambia",
+    "coordinates": "-12.9906407,28.6498144",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.edo/",
+    "city": "",
+    "state": "Edo",
+    "country": "Nigeria",
+    "coordinates": "6.563845, 5.940724",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.cancun.mexico/",
+    "city": "Cancún",
+    "state": "Quintana Roo",
+    "country": "Mexico",
+    "coordinates": "21.161908,-86.8515279",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.norwich/",
+    "city": "Norwich",
+    "state": "England",
+    "country": "United Kingdom",
+    "coordinates": "52.628428, 1.297815",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.muntinlupa/",
+    "city": "Muntinlupa",
+    "state": "Metro Manila",
+    "country": "Philippines",
+    "coordinates": "14.4081327,121.0414667",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/freecodecamp.khulna.bangladesh/",
+    "city": "Khulna",
+    "state": "Khulna Division",
+    "country": "Bangladesh",
+    "coordinates": "22.845641,89.5403279",
+    "photoUrl": ""
+  },
+  {
+    "url": "https://www.facebook.com/groups/free.code.camp.new.london/",
+    "city": "New London",
+    "state": "Connecticut",
+    "country": "United States",
+    "coordinates": "41.3556539,-72.0995209",
+    "photoUrl": ""
   }
 ]
